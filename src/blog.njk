@@ -1,0 +1,19 @@
+---
+title: Blog
+layout: "base.njk"
+pageTitle: Blog
+pageKicker: Please see below all of our blog posts that we discuss all aspects of web design & web development
+heroImg: /assets/img/spendo-imac.png
+heroAlt: iMac with Durham PCC Website
+---
+
+<section>
+  <div class="container">
+    <h2 class="text-center">Our Blog Articles</h2>
+    <div class="divider"></div>
+    <ul class="no-bullet">
+      {%- for post in collections.post | reverse -%} {% include
+      "article-snippet.njk" %} {%- endfor -%}
+    </ul>
+  </div>
+</section>

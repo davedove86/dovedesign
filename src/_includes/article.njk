@@ -1,0 +1,15 @@
+---
+layout: "blog.njk"
+---
+
+<div class="container">
+  <h1 class="text-center">{{ title }}</h1>
+  <div class="divider"></div>
+
+  <img src="{{ image }}" alt="{{ imageAlt }}" />
+  <figcaption>
+    {{ imageAlt }}
+  </figcaption>
+
+  {{ content | safe }}
+</div>
