@@ -468,6 +468,20 @@ button.small {
   margin: 20px 20px 0 0;
 }
 
+.card-logo {
+  padding: 3em 2em;
+  background: var(--cardBg);
+  box-shadow: var(--shadow-3);
+  border-radius: var(--borderRadius);
+  position: relative;
+  margin-bottom: 100px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .work-client-logo {
   width: 270px;
 }
@@ -513,7 +527,7 @@ button.small {
   list-style: none;
 }
 
-ul li::before {
+.no-bullet li::before {
   content: "";
 }
 

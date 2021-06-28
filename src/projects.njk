@@ -1,0 +1,38 @@
+---
+title: Our Projects
+layout: "base.njk"
+pageTitle: Our Projects
+pageKicker: Below is some of our most recent work that we have completed for either clients or as a concept project.
+heroImg: /assets/img/spendo-imac.png
+heroAlt: iMac with Spendo concept website
+---
+
+<section>
+  <div class="container">
+    <h2 class="text-center">Our Recent Projects</h2>
+    <div class="divider"></div>
+    <p class="text-center">
+      Click on the below cards to learn more about the project.
+    </p>
+    <div class="grid">
+      {%- for project in collections.project -%}
+
+      <div class="card">
+        <div class="article-text-wrap">
+          <img
+            class="article-thumbnail"
+            src="{{ project.data.heroImg }}"
+            alt="{{ project.data.imgAlt }}"
+          />
+          <h3>
+            <a href="{{ project.url }}">{{ project.data.pageTitle }}</a>
+          </h3>
+          <p>{{ project.data.pageKicker }}</p>
+          <p><a href="{{ project.url }}">Read More</a></p>
+        </div>
+      </div>
+
+      {%- endfor -%}
+    </div>
+  </div>
+</section>
