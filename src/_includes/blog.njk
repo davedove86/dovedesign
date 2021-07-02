@@ -75,75 +75,7 @@
 
       {{ content | safe }}
 
-      <!-- Contact Section -->
-      <section>
-        <div class="container">
-          <h2 class="text-center">Contact Us</h2>
-          <div class="divider"></div>
-          <p class="text-center">
-            Please get in touch to hear how we can help you change the world.
-          </p>
-
-          <div class="grid">
-            <div class="card contact-card">
-              <h3>Get in touch</h3>
-              <div class="icon-wrap">
-                <img src="/assets/img/phone-icon.svg" alt="Phone Icon" />
-                <p><a href="tel:07540599633">07540 599633</a></p>
-              </div>
-              <div class="icon-wrap">
-                <img src="/assets/img/email-icon.svg" alt="Email Icon" />
-                <p><a href="mailto:info@dovedesign.io">info@dovedesign.io</a></p>
-              </div>
-              <div class="icon-wrap">
-                <img src="/assets/img/linkedin-icon.svg" alt="LinkedIn Icon" />
-                <p>
-                  <a
-                    href="https://www.linkedin.com/company/dovedesignweb"
-                    target="_blank"
-                    >@dovedesignweb</a
-                  >
-                </p>
-              </div>
-              <img src="/assets/img/imac-ind.png" alt="iMac" />
-            </div>
-
-            <div class="card contact-card">
-              <h3>Send us a message</h3>
-              <form
-                name="contact"
-                method="POST"
-                data-netlify-recaptcha="true"
-                data-netlify="true"
-              >
-                <div>
-                  <label for="text">Name</label>
-                  <input id="text" type="text" name="name" placeholder="Name" />
-                </div>
-                <div>
-                  <label for="email">Email</label>
-                  <input id="email" type="email" name="email" placeholder="Email" />
-                </div>
-                <div>
-                  <label for="phone">Phone</label>
-                  <input id="phone" type="Phone" name="phone" placeholder="Phone" />
-                </div>
-                <div>
-                  <label for="textarea">Message</label>
-                  <textarea
-                    id="textarea"
-                    type="textarea"
-                    name="message"
-                    placeholder="Message"
-                  ></textarea>
-                </div>
-                <div data-netlify-recaptcha="true"></div>
-                <button type="submit">Send</button>
-              </form>
-            </div>
-          </div>
-        </div>
-      </section>
+      {% include 'contact-section.njk' %}
     </main>
 
     {% include 'footer.njk' %}

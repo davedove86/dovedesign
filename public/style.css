@@ -79,7 +79,6 @@ body {
 header {
   color: var(--black);
   width: 100%;
-  /* height: 100%; */
   background: var(--headerBackground);
   justify-content: space-between;
   align-items: center;
@@ -91,7 +90,6 @@ header .container {
   display: flex;
   justify-content: space-between;
   padding: 20px 0;
-  /* margin-bottom: 50px; */
 }
 
 header nav a {
@@ -118,7 +116,7 @@ footer {
   color: var(--footerTextColor);
   background: var(--footerBackground);
   padding: 20px var(--containerPadding);
-  font-size: 14px;
+  font-size: var(--smallText);
 }
 
 .footer-item {
@@ -170,7 +168,6 @@ h5 {
 h1 {
   font-size: var(--h1);
   font-weight: bold;
-  /* max-width: 15em; */
   margin-bottom: 1rem;
 }
 
@@ -226,8 +223,8 @@ textarea {
 }
 
 ::placeholder {
-  color: var(--lightgrey);
-  font-size: 14px;
+  color: var(--grey);
+  font-size: var(--smallText);
 }
 
 hr {
@@ -278,7 +275,7 @@ button,
   background-color: var(--buttonColor);
   border: 2px solid var(--blue);
   border-radius: 5px;
-  padding: 12px 25px;
+  padding: 0.8rem 1.5rem;
   box-shadow: var(--shadow-1);
   transition: 0.3s ease-in-out box-shadow, 0.3s ease-in-out opacity;
   cursor: pointer;
@@ -539,19 +536,34 @@ article {
   margin: 50px 0;
 }
 
+.article-text-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  min-height: 100%;
+}
+
+.article-text-wrap h3 {
+  padding: 30px 0 12px 0;
+}
+
 .article-text-wrap h3 a {
   text-decoration: none;
   color: inherit;
 }
 
 .article-text-wrap p:last-of-type {
-  margin-bottom: 30px;
+  margin: auto 0 20px 0;
+}
+
+.article-text-wrap p a {
+  margin-top: auto;
 }
 
 .article-thumbnail {
   max-width: 400px;
   border-radius: 3px;
-  box-shadow: var(--shadow-2);
+  /* box-shadow: var(--shadow-2); */
 }
 
 figcaption {
