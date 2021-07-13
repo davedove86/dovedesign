@@ -390,6 +390,7 @@ button.small {
   position: relative;
   margin-bottom: 100px;
   text-align: left;
+  width: 100%;
 }
 
 .align-center {
@@ -627,5 +628,9 @@ figcaption {
 
   .article-thumbnail {
     max-width: 100%;
+  }
+
+  .contact-card {
+    text-align: center;
   }
 }
