@@ -1,20 +1,22 @@
-<li class="no-bullet">
-  <article>
-    <div class="article-text-wrap">
-      <h3>
-        <a href="{{ post.url }}">{{ post.data.title }}</a>
-      </h3>
-      <p>
-        by <span>{{ post.data.author }}</span> on
-        <span>{{ post.data.date | postDate }}</span>
-      </p>
-      <p>{{ post.data.description }}</p>
-      <a class="button" href="{{ post.url }}">Continue Reading</a>
-    </div>
-    <img
-      class="article-thumbnail"
-      src="{{ post.data.image }}"
-      alt="{{ post.data.imageAlt }}"
-    />
-  </article>
-</li>
+<ul class="no-bullet">
+  <li class="no-bullet">
+    <article>
+      <div class="article-text-wrap">
+        <h3>
+          <a href="{{ post.url }}">{{ post.data.title }}</a>
+        </h3>
+        <p>
+          by <span>{{ post.data.author }}</span> on
+          <span>{{ post.data.date | postDate }}</span>
+        </p>
+        <p>{{ post.data.description }}</p>
+        <a class="button" href="{{ post.url }}">Continue Reading</a>
+      </div>
+      <img
+        class="article-thumbnail"
+        src="{{ post.data.image }}"
+        alt="{{ post.data.imageAlt }}"
+      />
+    </article>
+  </li>
+</ul>
