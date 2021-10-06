@@ -206,8 +206,7 @@ small,
 
 label {
   display: block;
-  font-size: var(--smallText);
-  font-weight: bold;
+  font-size: 1rem;
   margin-bottom: 5px;
 }
 
@@ -215,10 +214,15 @@ input,
 textarea {
   padding: 8px 12px;
   box-shadow: var(--shadow-1);
-  border: 1px solid rgba(0, 0, 0, 0.16);
+  border: 1px solid rgba(0, 0, 0, 0.324);
   border-radius: 5px;
   margin-bottom: 12px;
   width: 100%;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: rgba(35, 38, 45, 0.6);
 }
 
 textarea {
@@ -502,6 +506,7 @@ button.small {
 /* Contact Section forms */
 .contact-card {
   background-color: #fcfcfc;
+  min-height: 800px;
 }
 
 .contact-card h3 {
@@ -629,9 +634,5 @@ figcaption {
 
   .article-thumbnail {
     max-width: 100%;
-  }
-
-  .contact-card {
-    text-align: center;
   }
 }
