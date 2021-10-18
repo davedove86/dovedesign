@@ -2,27 +2,27 @@
 <html class="no-js" lang="en">
   <head>
     <meta charset="utf-8" />
-    <title>Blog | Dove Design - Web Design Agency</title>
-    <meta name="description" content="" />
+    <title>Test blog post | Dove Design - Web Design Agency</title>
+    <meta name="description" content="Test blog" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <!-- Open Graph Data -->
     <meta
       property="og:title"
-      content="Blog | Dove Design - Web Design Agency"
+      content="Test blog post | Dove Design - Web Design Agency"
     />
     <meta property="og:url" content="https://www.dovedesign.io" />
     <meta property="og:type" content="website" />
-    <meta property="og:description” content=" ” />
+    <meta property="og:description” content="Test blog” />
     <meta property="og:image" content="/img/open-graph-image.jpg" />
 
     <!-- Twitter Card -->
     <meta name="”twitter:card”" content="”summary”" />
     <meta
       name="”twitter:title"
-      content="Blog | Dove Design - Web Design Agency"
+      content="Test blog post | Dove Design - Web Design Agency"
     />
-    <meta name="”twitter:description" content="" />
+    <meta name="”twitter:description" content="Test blog" />
     <meta name="”twitter:url" content="https://www.dovedesign.io" />
     <meta name="”twitter:image" content="/assets/img/open-graph-image.jpg" />
 
@@ -66,10 +66,6 @@
     <link rel="stylesheet" href="/normalize.css" />
     <link rel="stylesheet" href="/main.css" />
     <link rel="stylesheet" href="/style.css" />
-    <script
-      defer
-      src="https://identity.netlify.com/v1/netlify-identity-widget.js"
-    ></script>
   </head>
 
   <body>
@@ -87,89 +83,23 @@
   </div>
 </header>
 
-
     <main>
-      <div class="container hero">
-        <div class="grid">
-          <div>
-            <h1>Blog</h1>
-            <p>Please see below all of our blog posts that we discuss all aspects of web design &amp; web development</p>
-            <a href="/contact"
-              ><button style="margin-right: 30px">Contact Us</button></a
-            >
-            <a href="/projects"
-              ><button class="transparent">Our Work</button></a
-            >
-          </div>
+      <div class="container blog">
 
-          <img
-            class="hero-image"
-            src="/assets/img/spendo-imac.png"
-            style="max-width: 500px"
-            alt="iMac with Spendo concept Website"
-          />
-        </div>
-      </div>
-      <lottie-player
-        src="https://assets5.lottiefiles.com/packages/lf20_h03opD.json"
-        background="transparent"
-        speed="1"
-        style="width: 50px; height: 50px"
-        loop
-        autoplay
-      ></lottie-player>
       
-<section>
-  <div class="container">
-    <h2 class="text-center">Our Blog Articles</h2>
-    <div class="divider"></div>
-    <ul class="no-bullet"><ul class="no-bullet">
-  <li class="no-bullet">
-    <article>
-      <div class="article-text-wrap">
-        <h3>
-          <a href="/blog/2021-10-18-test-blog-post/">Test blog post</a>
-        </h3>
-        <p>
-          by <span>Dave Dove</span> on
-          <span>18 Oct 2021</span>
-        </p>
-        <p>Test blog</p>
-        <a class="button" href="/blog/2021-10-18-test-blog-post/">Continue Reading</a>
-      </div>
-      <img
-        class="article-thumbnail"
-        src="/assets/blog/ipad.jpg"
-        alt="Image"
-      />
-    </article>
-  </li>
-</ul>
-<ul class="no-bullet">
-  <li class="no-bullet">
-    <article>
-      <div class="article-text-wrap">
-        <h3>
-          <a href="/blog/2021-06-01-responsive-web-design/">Responsive Web Design</a>
-        </h3>
-        <p>
-          by <span>Dave Dove</span> on
-          <span>1 Jun 2021</span>
-        </p>
-        <p>Recent statistics show that there are approximately 7.8 billion people on this earth with over 5.15 billion of them have mobile phone devices. This means that technology companies need to ensure that their website looks great on all devices including tablets and mobile phones.</p>
-        <a class="button" href="/blog/2021-06-01-responsive-web-design/">Continue Reading</a>
-      </div>
-      <img
-        class="article-thumbnail"
-        src="/assets/img/blog/laptop.jpg"
-        alt="MacBook Pro and iMac on a desk"
-      />
-    </article>
-  </li>
-</ul>
-</ul>
-  </div>
-</section>
+<div class="container">
+  <h1 class="text-center">Test blog post</h1>
+  <div class="divider"></div>
+
+  <img src="/assets/blog/ipad.jpg" alt="Image" />
+  <figcaption>
+    Image
+  </figcaption>
+
+  <p>This is a test article</p>
+
+</div>
+
 
       <!-- Contact Section -->
 <section>
@@ -318,18 +248,5 @@
   <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
 </html>
-
-    <!-- Netlify CMS -->
-    <script>
-      if (window.netlifyIdentity) {
-        window.netlifyIdentity.on("init", (user) => {
-          if (!user) {
-            window.netlifyIdentity.on("login", () => {
-              document.location.href = "/admin/";
-            });
-          }
-        });
-      }
-    </script>
   </body>
 </html>
