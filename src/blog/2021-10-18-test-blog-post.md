@@ -5,7 +5,7 @@ author: Dave Dove
 date: 2021-10-18T16:01:29.253Z
 tags:
   - post
-image: /assets/blog/laptop.jpg
+image: /assets/blog/ipad.jpg
 imageAlt: Image
 ---
 This is a test article
