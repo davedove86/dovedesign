@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="52" height="52" viewBox="0 0 52 52">
+  <g id="Responsive_website" data-name="Responsive website" transform="translate(-6 -6)">
+    <path id="Path_16" data-name="Path 16" d="M45,6H9A3,3,0,0,0,6,9V37a3,3,0,0,0,3,3h2a1,1,0,0,0,1-1h0a1,1,0,0,0-1-1H9a1,1,0,0,1-1-1V9A1,1,0,0,1,9,8H45a1,1,0,0,1,1,1V20H32a3,3,0,0,0-3,3V38H15a1,1,0,0,0-1,1h0a1,1,0,0,0,1,1H30a1,1,0,0,0,1-1V23a1,1,0,0,1,1-1H47a1,1,0,0,0,1-1V9A3,3,0,0,0,45,6Z" fill="#fff"/>
+    <path id="Path_17" data-name="Path 17" d="M51,20H32a3,3,0,0,0-3,3V51a3,3,0,0,0,3,3h9a1,1,0,0,0,1-1V49a1,1,0,0,0-1-1h0a1,1,0,0,0-1,1v3H32a1,1,0,0,1-1-1V23a1,1,0,0,1,1-1H51a1,1,0,0,1,1,1v9H43a3,3,0,0,0-3,3V45a1,1,0,0,0,1,1h0a1,1,0,0,0,1-1V35a1,1,0,0,1,1-1H53a1,1,0,0,0,1-1V23A3,3,0,0,0,51,20Z" fill="#fff"/>
+    <path id="Path_18" data-name="Path 18" d="M55,32H43a3,3,0,0,0-3,3V45a1,1,0,0,0,1,1h0a1,1,0,0,0,1-1V35a1,1,0,0,1,1-1H55a1,1,0,0,1,1,1V55a1,1,0,0,1-1,1H43a1,1,0,0,1-1-1V49a1,1,0,0,0-1-1h0a1,1,0,0,0-1,1v6a3,3,0,0,0,3,3H55a3,3,0,0,0,3-3V35A3,3,0,0,0,55,32Z" fill="#fff"/>
+    <circle id="Ellipse_6" data-name="Ellipse 6" cx="1" cy="1" r="1" transform="translate(11 10)" fill="#fff"/>
+    <circle id="Ellipse_7" data-name="Ellipse 7" cx="1" cy="1" r="1" transform="translate(16 10)" fill="#fff"/>
+    <circle id="Ellipse_8" data-name="Ellipse 8" cx="1" cy="1" r="1" transform="translate(21 10)" fill="#fff"/>
+    <circle id="Ellipse_9" data-name="Ellipse 9" cx="1" cy="1" r="1" transform="translate(33 23)" fill="#fff"/>
+    <circle id="Ellipse_10" data-name="Ellipse 10" cx="1" cy="1" r="1" transform="translate(37 23)" fill="#fff"/>
+    <circle id="Ellipse_11" data-name="Ellipse 11" cx="1" cy="1" r="1" transform="translate(41 23)" fill="#fff"/>
+    <path id="Path_19" data-name="Path 19" d="M8,14H29a1,1,0,0,1,1,1h0a1,1,0,0,1-1,1H8a1,1,0,0,1,0-2Z" fill="#fff"/>
+    <rect id="Rectangle_21" data-name="Rectangle 21" width="2" height="2" rx="1" transform="translate(32 14)" fill="#fff"/>
+    <path id="Path_20" data-name="Path 20" d="M48,15a1,1,0,0,1-1,1H37a1,1,0,0,1-1-1h0a1,1,0,0,1,1-1H47A1,1,0,0,1,48,15Z" fill="#fff"/>
+    <path id="Path_21" data-name="Path 21" d="M53,28H30a1,1,0,0,1,0-2H53a1,1,0,0,1,0,2Z" fill="#fff"/>
+  </g>
+</svg>
