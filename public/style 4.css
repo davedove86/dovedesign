@@ -75,10 +75,6 @@ body {
   line-height: 1.65;
 }
 
-section {
-  padding: 50px 0;
-}
-
 /* Header */
 header {
   color: var(--black);
@@ -638,13 +634,5 @@ figcaption {
 
   .article-thumbnail {
     max-width: 100%;
-  }
-
-  .contact-card h3 {
-    text-align: center;
-  }
-
-  .no-bullet {
-    padding-left: 0;
   }
 }
