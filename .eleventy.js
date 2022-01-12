@@ -4,6 +4,8 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("./src/normalize.css");
   eleventyConfig.addPassthroughCopy("./src/main.css");
   eleventyConfig.addPassthroughCopy("./src/style.css");
+  eleventyConfig.addPassthroughCopy("./src/index.js");
+  eleventyConfig.addPassthroughCopy("./src/modernizr-3.11.2.js");
   eleventyConfig.addPassthroughCopy("./src/assets");
   eleventyConfig.addPassthroughCopy("./src/admin");
   eleventyConfig.addPassthroughCopy("./src/sitemap.xml");

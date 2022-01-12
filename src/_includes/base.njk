@@ -79,7 +79,7 @@
       <div class="container hero">
         <div class="grid">
           <div>
-            <h1>{{ pageTitle }}</h1>
+            <h1 class="pageTitle">{{ pageTitle }}</h1>
             <p>{{ pageKicker }}</p>
             <a href="/contact"
               ><button style="margin-right: 30px">Contact Us</button></a
@@ -110,18 +110,5 @@
     </main>
 
     {% include 'footer.njk' %}
-
-    <!-- Netlify CMS -->
-    <script>
-      if (window.netlifyIdentity) {
-        window.netlifyIdentity.on("init", (user) => {
-          if (!user) {
-            window.netlifyIdentity.on("login", () => {
-              document.location.href = "/admin/";
-            });
-          }
-        });
-      }
-    </script>
   </body>
 </html>
