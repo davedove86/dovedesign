@@ -6,6 +6,7 @@ tags: ["post", "featured"]
 image: /assets/img/blog/our-process-blog.jpg
 imageAlt: Pressing interactive process map
 description: Here at Dove Design we have a process that we follow to ensure that our websites are designed to be interactive and easy to use. We use a process map to show how we work. The process map is a great way to show how we work and how we can help you.
+layout: article.njk
 ---
 
 ## Process Map

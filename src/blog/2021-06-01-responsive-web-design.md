@@ -6,6 +6,7 @@ tags: ["post", "featured"]
 image: /assets/img/blog/laptop.jpg
 imageAlt: MacBook Pro and iMac on a desk
 description: Recent statistics show that there are approximately 7.8 billion people on this earth with over 5.15 billion of them have mobile phone devices. This means that technology companies need to ensure that their website looks great on all devices including tablets and mobile phones.
+layout: article.njk
 ---
 
 Recent statistics show that there are approximately 7.8 billion people on this earth with over 5.15 billion of them have mobile phone devices. This means that technology companies need to ensure that their website looks great on all devices including tablets and mobile phones.
