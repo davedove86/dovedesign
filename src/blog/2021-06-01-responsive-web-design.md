@@ -2,7 +2,7 @@
 title: Responsive Web Design
 author: Dave Dove
 date: 2021-06-01
-tags: ["post", "featured"]
+tags: ['post', 'featured']
 image: /assets/img/blog/laptop.jpg
 imageAlt: MacBook Pro and iMac on a desk
 description: Recent statistics show that there are approximately 7.8 billion people on this earth with over 5.15 billion of them have mobile phone devices. This means that technology companies need to ensure that their website looks great on all devices including tablets and mobile phones.
@@ -21,7 +21,7 @@ Around the late 2000s, when smartphones started to dominate with an explosion of
 
 Web designers were dealing with cross-compatibility problems when it came time to building websites. They had to deal with different window width, screen resolution, different input devices that needed to be addressed and that was just the starting point.
 
-![Person holding an iPad](/assets/img/blog/ipad.jpg "Person holding an iPad")
+<!-- ![Person holding an iPad](/assets/img/blog/ipad.jpg "Person holding an iPad") -->
 
 ## Why Is Responsive Web Design Important For Tech Companies?
 
