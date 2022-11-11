@@ -13,6 +13,23 @@ layout: 'blog.njk'
       {{ imageAlt }}
     </figcaption>
   </div>
+  <div class="blog-flex">
+    <p>
+      {{ date | postDate }}
+    </p>
+    <div class="blog-author-info">
+      <img
+        class="blog-profile-img"
+        src="{{ authorProfile }}"
+        alt="{{ author }}"
+      />
+
+      <div class="blog-author-name">
+        <span>Author</span>
+        <p>{{ author }}</p>
+      </div>
+    </div>
+  </div>
 
   {{ content | safe }}
 </div>

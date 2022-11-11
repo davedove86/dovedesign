@@ -1,6 +1,7 @@
 ---
 title: Our Process
 author: Dave Dove
+authorProfile: /assets/img/blog/dave.png
 date: 2021-11-10
 tags: ['post', 'featured']
 image: /assets/img/blog/our-process-blog.jpg

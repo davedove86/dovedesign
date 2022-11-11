@@ -1,6 +1,7 @@
 ---
 title: Responsive Web Design
 author: Dave Dove
+authorProfile: /assets/img/blog/dave.png
 date: 2021-06-01
 tags: ['post', 'featured']
 image: /assets/img/blog/laptop.jpg
