@@ -260,7 +260,7 @@ img {
   height: 5px;
   width: 50px;
   background-color: var(--blue);
-  margin: 0.5rem auto 0 auto;
+  margin: 0.5rem auto 3rem auto;
 }
 
 /* List styles */
@@ -534,6 +534,9 @@ span {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  height: 300px;
+  width: 100%;
+
 }
 
 .work-client-logo {
