@@ -361,19 +361,15 @@
   }
 </script>
 
-<!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-SWZC21Y0ED"></script>
 <script>
-  window.ga = function () {
-    ga.q.push(arguments);
-  };
-  ga.q = [];
-  ga.l = +new Date();
-  ga("create", "UA-65836002-6", "auto");
-  ga("set", "anonymizeIp", true);
-  ga("set", "transport", "beacon");
-  ga("send", "pageview");
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-SWZC21Y0ED');
 </script>
-<script src="https://www.google-analytics.com/analytics.js" async></script>
 <script src="https://www.google.com/recaptcha/api.js"></script>
 <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 <!-- Cookie solution -->
