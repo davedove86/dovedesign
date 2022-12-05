@@ -151,6 +151,11 @@ footer img {
   margin-top: 15px;
 }
 
+.bottom-footer {
+  padding: 1rem 0 0 0;
+  text-align: center;
+}
+
 p {
   margin-bottom: 1rem;
   max-width: 40em;
@@ -724,5 +729,9 @@ figcaption {
 
   header > .hero > nav {
     margin-top: 1rem;
+  }
+
+  .bottom-footer {
+    text-align: left;
   }
 }

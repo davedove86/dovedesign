@@ -151,11 +151,6 @@ footer img {
   margin-top: 15px;
 }
 
-.bottom-footer {
-  padding: 1rem 0 0 0;
-  text-align: center;
-}
-
 p {
   margin-bottom: 1rem;
   max-width: 40em;
@@ -265,7 +260,7 @@ img {
   height: 5px;
   width: 50px;
   background-color: var(--blue);
-  margin: 0.5rem auto 3rem auto;
+  margin: 0.5rem auto 0 auto;
 }
 
 /* List styles */
@@ -539,9 +534,6 @@ span {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 300px;
-  width: 100%;
-
 }
 
 .work-client-logo {
@@ -729,9 +721,5 @@ figcaption {
 
   header > .hero > nav {
     margin-top: 1rem;
-  }
-
-  .bottom-footer {
-    text-align: left;
   }
 }
