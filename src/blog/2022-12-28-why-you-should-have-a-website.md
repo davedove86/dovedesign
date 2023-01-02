@@ -38,6 +38,6 @@ In conclusion, having a website is essential for any business that wants to succ
 
 ## What to do now?
 
-Does your company website need updating? Here at Dove Design we design and build websites for tech businesses like you, to market your products so customers can access them with ease, so you can continue to focus on your business and change the world.
+Does your company website need updating? Here at Dove Design we design and build websites for businesses like you, to market your products so customers can access them with ease, so you can continue to focus on your business and change the world.
 
 Get in touch and let’s talk.

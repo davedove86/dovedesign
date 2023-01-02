@@ -3,7 +3,7 @@ title: Responsive Web Design
 author: Dave Dove
 authorProfile: /assets/img/blog/dave.png
 date: 2022-11-01
-tags: ["post", "featured"]
+tags: ["post"]
 image: /assets/img/blog/laptop.jpg
 imageAlt: MacBook Pro and iMac on a desk
 description: Recent statistics show that there are approximately 7.8 billion people on this earth with over 5.15 billion of them have mobile phone devices. This means that technology companies need to ensure that their website looks great on all devices including tablets and mobile phones.
@@ -34,6 +34,6 @@ Not having a website that is accessible on tablet and mobile devices will be mar
 
 ## What to do now?
 
-Does your company website need updating? Here at Dove Design we design and build websites for tech businesses like you, to market your products so customers can access them with ease, so you can continue to focus on your business and change the world.
+Does your company website need updating? Here at Dove Design we design and build websites for businesses like you, to market your products so customers can access them with ease, so you can continue to focus on your business and change the world.
 
 Get in touch and let’s talk.
