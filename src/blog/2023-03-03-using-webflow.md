@@ -5,10 +5,11 @@ authorProfile: /assets/img/blog/dave.png
 date: 2023-02-09
 tags: ["post", "featured"]
 image: /assets/img/blog/webflow-logo.png
-open-graph-image: /assets/img/blog/webflow-logo.png
+openGraph: /assets/img/blog/webflow-logo.png
 imageAlt: Webflow Logo
 description: Webflow is a web design and development platform that allows users to create and launch responsive websites without the need for coding.
 layout: article.njk
+url: https://dovedesign.io/blog/2023-03-03-using-webflow/
 ---
 
 ## Overview

@@ -5,10 +5,11 @@ authorProfile: /assets/img/blog/dave.png
 date: 2023-02-09
 tags: ["post", "featured"]
 image: /assets/img/blog/scsk-logo.png
-open-graph-image: /assets/img/blog/scsk-logo.png
+openGraph: /assets/img/blog/scsk-logo.png
 imageAlt: Sunderland Community Soup Kitchen Logo
 description: Recently, the team at Dove Design donated a website for Sunderland Community Soup Kitchen. This exciting launch marks a new chapter for the charity and its mission to provide essential services to those in need. The new website is a powerful tool that will help the charity reach more people and make an even greater impact on the community.
 layout: article.njk
+url: https://dovedesign.io/blog/2023-02-09-sunderland-community-soup-kitchen/
 ---
 
 ## Overview

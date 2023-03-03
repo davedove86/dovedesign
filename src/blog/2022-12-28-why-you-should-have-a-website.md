@@ -5,10 +5,11 @@ authorProfile: /assets/img/blog/dave.png
 date: 2022-12-28
 tags: ["post"]
 image: /assets/img/blog/business-website.jpg
-open-graph-image: /assets/img/blog/business-website.jpg
+openGraph: /assets/img/blog/business-website.jpg
 imageAlt: MacBook Pro on a desk
 description: Having a website is crucial for any business, regardless of its size or industry. In today's digital age, a website serves as the online storefront for your business and can significantly impact your ability to attract and retain customers.
 layout: article.njk
+url: https://dovedesign.io/blog/2022-12-28-why-you-should-have-a-website/
 ---
 
 Having a website is crucial for any business, regardless of its size or industry. In today's digital age, a website serves as the online storefront for your business and can significantly impact your ability to attract and retain customers.
