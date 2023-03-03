@@ -330,50 +330,12 @@
 <!-- Cookie solution -->
 <script type="text/javascript">
   var _iub = _iub || [];
-  _iub.csConfiguration = {
-    gdprAppliesGlobally: false,
-    enableCcpa: true,
-    countryDetection: true,
-    cookiePolicyInOtherWindow: true,
-    consentOnContinuedBrowsing: false,
-    perPurposeConsent: true,
-    enableCMP: true,
-    googleAdditionalConsentMode: true,
-    ccpaAcknowledgeOnDisplay: true,
-    lang: "en",
-    siteId: 1934321,
-    floatingPreferencesButtonDisplay: "bottom-left",
-    floatingPreferencesButtonIcon: true,
-    floatingPreferencesButtonHover: true,
-    cookiePolicyId: 89796861,
-    floatingPreferencesButtonCaption: true,
-    banner: {
-      acceptButtonDisplay: true,
-      customizeButtonDisplay: true,
-      acceptButtonColor: "#2f65e5",
-      acceptButtonCaptionColor: "white",
-      customizeButtonColor: "#DADADA",
-      customizeButtonCaptionColor: "#4D4D4D",
-      rejectButtonDisplay: true,
-      rejectButtonColor: "#ccc",
-      rejectButtonCaptionColor: "white",
-      position: "float-bottom-center",
-      textColor: "black",
-      backgroundColor: "white",
-    },
-  };
-</script>
-<script
-  type="text/javascript"
-  src="//cdn.iubenda.com/cs/tcf/stub-v2.js"
-></script>
-<script type="text/javascript" src="//cdn.iubenda.com/cs/ccpa/stub.js"></script>
-<script
-  type="text/javascript"
-  src="//cdn.iubenda.com/cs/iubenda_cs.js"
-  charset="UTF-8"
-  async
-></script>
+  _iub.csConfiguration = {"askConsentAtCookiePolicyUpdate":true,"cookiePolicyInOtherWindow":true,"countryDetection":true,"enableLgpd":true,"enableTcf":true,"enableUspr":true,"floatingPreferencesButtonDisplay":"bottom-left","floatingPreferencesButtonHover":true,"googleAdditionalConsentMode":true,"lang":"en","lgpdAppliesGlobally":false,"perPurposeConsent":true,"siteId":1934321,"cookiePolicyId":89796861,"floatingPreferencesButtonCaption":true, "banner":{ "acceptButtonCaptionColor":"white","acceptButtonColor":"#2f65e5","acceptButtonDisplay":true,"backgroundColor":"white","closeButtonRejects":true,"customizeButtonCaptionColor":"#4D4D4D","customizeButtonColor":"#DADADA","customizeButtonDisplay":true,"explicitWithdrawal":true,"listPurposes":true,"position":"float-bottom-center","rejectButtonCaptionColor":"white","rejectButtonColor":"#ccc","rejectButtonDisplay":true,"showPurposesToggles":true,"textColor":"black" }};
+  </script>
+  <script type="text/javascript" src="//cdn.iubenda.com/cs/tcf/stub-v2.js"></script>
+  <script type="text/javascript" src="//cdn.iubenda.com/cs/tcf/safe-tcf-v2.js"></script>
+  <script type="text/javascript" src="//cdn.iubenda.com/cs/gpp/stub.js"></script>
+  <script type="text/javascript" src="//cdn.iubenda.com/cs/iubenda_cs.js" charset="UTF-8" async></script>
 
 <!-- Calendly badge widget begin -->
 <link
