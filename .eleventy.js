@@ -1,5 +1,6 @@
 const { DateTime } = require("luxon");
 
+// Bring in all files needed
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("./src/normalize.css");
   eleventyConfig.addPassthroughCopy("./src/main.css");

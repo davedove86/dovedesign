@@ -3,7 +3,7 @@ title: What Is Web Design?
 author: Dave Dove
 authorProfile: /assets/img/blog/dave.png
 date: 2023-01-02
-tags: ["post", "featured"]
+tags: ["post"]
 image: /assets/img/blog/what-is-web-design.jpg
 imageAlt: MacBook Pro on a white desk
 description: Web design is the process of creating and designing a website. It involves a combination of aesthetics, functionality, and usability to create a user-friendly and visually appealing website.
