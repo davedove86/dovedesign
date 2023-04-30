@@ -3,7 +3,7 @@ title: Website Donated To Sunderland Community Soup Kitchen
 author: Dave Dove
 authorProfile: /assets/img/blog/dave.png
 date: 2023-02-09
-tags: ["post", "featured"]
+tags: ['post']
 image: /assets/img/blog/scsk-logo.png
 openGraph: /assets/img/blog/scsk-logo.png
 imageAlt: Sunderland Community Soup Kitchen Logo
@@ -22,7 +22,7 @@ Recently, the team at Dove Design donated a website for Sunderland Community Sou
 
 The website, designed & built by Dove Design, is visually appealing, user-friendly, and provides all the information needed for both people who would like to donate and those seeking assistance. The site’s clean design and easy navigation make it simple for users to find what they are looking for, whether it be information about the charity, its mission, or how to donate. The website has been optimised for mobile devices, so it can be easily accessed on the go, making it a convenient resource for those who need it.
 
-![Strategy meeting](/assets/img/blog/scsk-screenshot.png "Sunderland Community Soup Kitchen Website")
+![Strategy meeting](/assets/img/blog/scsk-screenshot.png 'Sunderland Community Soup Kitchen Website')
 
 The homepage of the website features a beautiful grid that showcases the charity's work, along with a clear call to action for users to donate. Visitors to the site can quickly access information about the charity's history and services. The website also includes a FAQ section, where the charity can share frequently asked questions that the community would like to know. This section will keep users informed about the charity's latest initiatives, events, and successes, and it will provide a platform for the charity to share its story with a wider audience.
 
@@ -34,7 +34,7 @@ The launch of the new website has been a significant milestone for Sunderland Co
 
 In conclusion, the new website for the Sunderland Community Soup Kitchen is a great resource for anyone looking to get involved and make a difference. The website is user-friendly, informative, and visually appealing, and it provides an excellent platform for the charity to connect with its supporters and share its story. We are thrilled to see the positive impact that this website will have on the charity's mission and the community it serves. We encourage everyone to visit the website and learn more about the amazing work that the team at Sunderland Community Soup Kitchen is doing. Whether you are looking to make a donation, or simply learn more about the charity, the new website is the perfect place to start.
 
-Click on the link to view the new [Sunderland Community Soup Kitchen Website](https://www.soupscsk.com/ "Sunderland Community Soup Kitchen Website").
+Click on the link to view the new [Sunderland Community Soup Kitchen Website](https://www.soupscsk.com/ 'Sunderland Community Soup Kitchen Website').
 
 ## What to do now?
 

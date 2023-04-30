@@ -2,8 +2,8 @@
 title: Why We Use Webflow For Clients
 author: Dave Dove
 authorProfile: /assets/img/blog/dave.png
-date: 2023-02-09
-tags: ["post", "featured"]
+date: 2023-03-03
+tags: ['post', 'featured']
 image: /assets/img/blog/webflow-logo.png
 openGraph: /assets/img/blog/webflow-logo.png
 imageAlt: Webflow Logo
@@ -30,7 +30,7 @@ Webflow offers an unparalleled level of customisation, allowing developers to cr
 
 Webflow’s content management system (CMS) is designed to be easy to use and intuitive for both developers and clients. With its user-friendly interface, clients can easily add and edit content, images, and videos without the need for technical knowledge. The CMS also allows for complex data relationships, making it ideal for websites that require dynamic content.
 
-![Webflow advert](/assets/img/blog/webflow-image.jpeg "Webflow advert")
+![Webflow advert](/assets/img/blog/webflow-image.jpeg 'Webflow advert')
 
 ### SEO optimisation
 
