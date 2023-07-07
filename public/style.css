@@ -719,6 +719,10 @@ figcaption {
 	}
 }
 
+#shadow-host-companion {
+  padding: 0;
+}
+
 @media only screen and (max-width: 680px) {
 	header > .hero {
 		display: flex;
