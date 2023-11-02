@@ -1,142 +1,71 @@
 <!DOCTYPE html>
-<html
-	class="no-js"
-	lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<title>{{ title }} | Dove Design Ltd - Web Design Agency</title>
-		<meta
-			name="description"
-			content="{{ description }}" />
-		<meta
-			name="viewport"
-			content="width=device-width, initial-scale=1" />
+<html class="no-js" lang="en">
 
-		<!-- Open Graph Data -->
-		<meta
-			property="og:title"
-			content="{{ title }} | Dove Design - Web Design Agency" />
-		<meta
-			property="og:url"
-			content="https://www.dovedesign.io" />
-		<meta
-			property="og:type"
-			content="website" />
-		<meta
-			property="og:description” content="
-			{{
-			description
-			}}” />
-		<meta
-			property="og:image"
-			content="{{ openGraph }}" />
+<head>
+  <meta charset="utf-8" />
+  <title>{{ title }} | Dove Design Ltd - Web Design Agency</title>
+  <meta name="description" content="{{ description }}" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-		<!-- Twitter Card -->
-		<meta
-			name="”twitter:card”"
-			content="”summary”" />
-		<meta
-			name="”twitter:title"
-			content="{{ title }} | Dove Design - Web Design Agency" />
-		<meta
-			name="”twitter:description"
-			content="{{ description }}" />
-		<meta
-			name="”twitter:url"
-			content="https://www.dovedesign.io" />
-		<meta
-			name="”twitter:image"
-			content="{{ openGraph }}" />
+  <!-- Open Graph Data -->
+  <meta property="og:title" content="{{ title }} | Dove Design - Web Design Agency" />
+  <meta property="og:url" content="https://www.dovedesign.io" />
+  <meta property="og:type" content="website" />
+  <meta property="og:description” content=" {{ description }}” />
+  <meta property="og:image" content="{{ openGraph }}" />
 
-		<!-- Favicons -->
-		<link
-			rel="apple-touch-icon"
-			sizes="180x180"
-			href="/assets/apple-touch-icon.png" />
-		<link
-			rel="icon"
-			type="image/png"
-			sizes="32x32"
-			href="/assets/favicon-32x32.png" />
-		<link
-			rel="icon"
-			type="image/png"
-			sizes="16x16"
-			href="/assets/favicon-16x16.png" />
-		<link
-			rel="manifest"
-			href="/assets/site.webmanifest" />
-		<link
-			rel="mask-icon"
-			href="/assets/safari-pinned-tab.svg"
-			color="#5bbad5" />
-		<meta
-			name="msapplication-TileColor"
-			content="#da532c" />
-		<meta
-			name="theme-color"
-			content="#ffffff" />
+  <!-- Twitter Card -->
+  <meta name="”twitter:card”" content="”summary”" />
+  <meta name="”twitter:title" content="{{ title }} | Dove Design - Web Design Agency" />
+  <meta name="”twitter:description" content="{{ description }}" />
+  <meta name="”twitter:url" content="https://www.dovedesign.io" />
+  <meta name="”twitter:image" content="{{ openGraph }}" />
 
-		<!-- Webclip -->
-		<link
-			rel="apple-touch-icon"
-			href="/assets/webclip.png" />
+  <!-- Favicons -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png" />
+  <link rel="manifest" href="/assets/site.webmanifest" />
+  <link rel="mask-icon" href="/assets/safari-pinned-tab.svg" color="#5bbad5" />
+  <meta name="msapplication-TileColor" content="#da532c" />
+  <meta name="theme-color" content="#ffffff" />
 
-		<!-- Google verifictaion -->
-		<meta
-			content="Gn2ph9pZPQ_IgW7Y-arpwBwHml3NhvixI_raI-BKoGA"
-			name="google-site-verification" />
+  <!-- Webclip -->
+  <link rel="apple-touch-icon" href="/assets/webclip.png" />
 
-		<!-- Stylesheets -->
-		<link
-			rel="stylesheet"
-			href="/normalize.css" />
-		<link
-			rel="stylesheet"
-			href="/main.css" />
-		<link
-			rel="stylesheet"
-			href="/style.css" />
-		<script
-			defer
-			src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-	</head>
+  <!-- Google verifictaion -->
+  <meta content="Gn2ph9pZPQ_IgW7Y-arpwBwHml3NhvixI_raI-BKoGA" name="google-site-verification" />
 
-	<body>
-		{% include 'header.njk' %}
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="/normalize.css" />
+  <link rel="stylesheet" href="/main.css" />
+  <link rel="stylesheet" href="/style.css" />
+  <script defer src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+</head>
 
-		<main>
-			<div class="container hero">
-				<div class="grid">
-					<div>
-						<h1 class="pageTitle">{{ pageTitle }}</h1>
-						<p>{{ pageKicker }}</p>
-						<a href="/contact"
-							><button style="margin-right: 30px">Contact Us</button></a
-						>
-						<a href="/projects"
-							><button class="transparent">Our Work</button></a
-						>
-					</div>
+<body>
+  {% include 'header.njk' %}
 
-					<img
-						class="hero-image"
-						src="{{ heroImg }}"
-						style="max-width: 500px"
-						alt="{{ heroAlt }}" />
-				</div>
-			</div>
-			<lottie-player
-				src="https://assets5.lottiefiles.com/packages/lf20_h03opD.json"
-				background="transparent"
-				speed="1"
-				style="width: 50px; height: 50px"
-				loop
-				autoplay></lottie-player>
-			{{ content | safe }}
-			{% include 'contact-section.njk' %}
-		</main>
+  <main>
+    <div class="container hero">
+      <div class="grid">
+        <div>
+          <h1 class="pageTitle">{{ pageTitle }}</h1>
+          <p>{{ pageKicker }}</p>
+          <a href="/contact"><button style="margin-right: 30px">Contact Us</button></a>
+          <a href="/projects"><button class="transparent">Our Work</button></a>
+        </div>
 
-		{% include 'footer.njk' %}
-	</body>
+        <img class="hero-image" src="{{ heroImg }}" style="max-width: 500px" alt="{{ heroAlt }}" />
+      </div>
+    </div>
+    <lottie-player src="https://assets5.lottiefiles.com/packages/lf20_h03opD.json" background="transparent" speed="1"
+      style="width: 50px; height: 50px" loop autoplay></lottie-player>
+    {{ content | safe }}
+    {% include 'contact-section.njk' %}
+  </main>
+
+  {% include 'footer.njk' %}
+</body>
+
 </html>
