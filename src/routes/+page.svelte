@@ -1,9 +1,8 @@
 <script>
-  import Contact from "./Contact.svelte";
   import Testimonials from "./Testimonials.svelte";
   export let title = "Dove Design Ltd | Home";
   export let description =
-    "Test At Dove Design, we specialise in creating visually appealing and highly functional websites that help businesses succeed online.";
+    "At Dove Design, we specialise in creating visually appealing and highly functional websites that help businesses succeed online.";
   // export let image = "https://example.com/your-logo.png”;
 </script>
 
@@ -91,7 +90,6 @@
         </div>
         <a class="button" href="/contact">Contact us</a>
       </div>
-      <!-- Change image to not Webflow -->
       <img
         class="grid-image"
         src="/images/section-image.webp"

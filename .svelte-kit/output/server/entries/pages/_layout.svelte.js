@@ -11,12 +11,40 @@ const Navbar = create_ssr_component(($$result, $$props, $$bindings, slots) => {
 });
 const Footer_svelte_svelte_type_style_lang = "";
 const css = {
-  code: "footer.svelte-cu9yku.svelte-cu9yku{background-color:var(--black-blue);margin-top:auto}.footer-grid.svelte-cu9yku.svelte-cu9yku{display:flex;justify-content:space-between;align-items:center;padding:3rem 0}.center-align-grid.svelte-cu9yku.svelte-cu9yku{display:flex;justify-content:center;align-items:center;padding:3rem 0}a.svelte-cu9yku.svelte-cu9yku,p.svelte-cu9yku.svelte-cu9yku{text-decoration:none;color:var(--white);margin:0 1.5rem}ul.svelte-cu9yku.svelte-cu9yku{display:flex;gap:1.5rem}ul.svelte-cu9yku a.svelte-cu9yku{text-decoration:none;color:var(--white);list-style:none}a.svelte-cu9yku img.svelte-cu9yku{height:24px}@media screen and (max-width: 600px){.footer-grid.svelte-cu9yku.svelte-cu9yku{display:flex;flex-direction:column;gap:1rem}ul.svelte-cu9yku.svelte-cu9yku{display:block;text-align:center;margin:1rem 0}ul.svelte-cu9yku a li.svelte-cu9yku{margin:1rem 0}}",
+  code: "footer.svelte-1dt2qv4.svelte-1dt2qv4{background-color:var(--black-blue);margin-top:auto}.footer-grid.svelte-1dt2qv4.svelte-1dt2qv4{display:flex;justify-content:space-between;align-items:center;padding:3rem 0}.center-align-grid.svelte-1dt2qv4.svelte-1dt2qv4{display:flex;justify-content:center;align-items:center;padding:3rem 0}a.svelte-1dt2qv4.svelte-1dt2qv4,p.svelte-1dt2qv4.svelte-1dt2qv4{text-decoration:none;color:var(--white);margin:0 1.5rem}ul.svelte-1dt2qv4.svelte-1dt2qv4{display:flex;gap:1.5rem}ul.svelte-1dt2qv4 a.svelte-1dt2qv4{text-decoration:none;color:var(--white);list-style:none}a.svelte-1dt2qv4 img.svelte-1dt2qv4{height:24px}@media screen and (max-width: 600px){.footer-grid.svelte-1dt2qv4.svelte-1dt2qv4{display:flex;flex-direction:column;gap:1rem}ul.svelte-1dt2qv4.svelte-1dt2qv4{display:block;text-align:center;margin:1rem 0}ul.svelte-1dt2qv4 a li.svelte-1dt2qv4{margin:1rem 0}}",
   map: null
 };
 const Footer = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   $$result.css.add(css);
-  return `<footer class="svelte-cu9yku" data-svelte-h="svelte-1diakjk"><div class="container"><div class="footer-grid svelte-cu9yku"><a href="/" class="svelte-cu9yku"><img src="/images/footer-logo.svg" alt="Dove Design Logo" class="svelte-cu9yku"></a> <div><ul class="svelte-cu9yku"><a href="/" class="svelte-cu9yku"><li class="svelte-cu9yku">Home</li></a> <a href="/work" class="svelte-cu9yku"><li class="svelte-cu9yku">Our Work</li></a> <a href="/faq" class="svelte-cu9yku"><li class="svelte-cu9yku">FAQs</li></a> <a href="/contact" class="svelte-cu9yku"><li class="svelte-cu9yku">Contact</li></a></ul></div> <a href="https://www.linkedin.com/company/dovedesignweb/" target="_blank" class="svelte-cu9yku"><img src="/images/linkedin-footer.svg" alt="" class="svelte-cu9yku"></a></div> <div class="center-align-grid svelte-cu9yku"><p class="svelte-cu9yku">©<span id="currentYear">2024</span> Dove Design Ltd</p> <a href="/" target="_blank" class="svelte-cu9yku"><p class="svelte-cu9yku">Privacy Policy</p></a> <a href="/" target="_blank" class="svelte-cu9yku">Cookies Policy</a></div></div> </footer>`;
+  return `<footer class="svelte-1dt2qv4" data-svelte-h="svelte-1c74xfy"><div class="container"><div class="footer-grid svelte-1dt2qv4"><a href="/" class="svelte-1dt2qv4"><img src="/images/footer-logo.svg" alt="Dove Design Logo" class="svelte-1dt2qv4"></a> <div><ul class="svelte-1dt2qv4"><a href="/" class="svelte-1dt2qv4"><li class="svelte-1dt2qv4">Home</li></a> <a href="/work" class="svelte-1dt2qv4"><li class="svelte-1dt2qv4">Our Work</li></a> <a href="/faq" class="svelte-1dt2qv4"><li class="svelte-1dt2qv4">FAQs</li></a> <a href="/contact" class="svelte-1dt2qv4"><li class="svelte-1dt2qv4">Contact</li></a></ul></div> <a href="https://www.linkedin.com/company/dovedesignweb/" target="_blank" class="svelte-1dt2qv4"><img src="/images/linkedin-footer.svg" alt="" class="svelte-1dt2qv4"></a></div> <div class="center-align-grid svelte-1dt2qv4"><p class="svelte-1dt2qv4">©<span id="currentYear">2024</span> Dove Design Ltd</p> <a href="https://www.iubenda.com/privacy-policy/89796861" class="iubenda-nostyle no-brand iubenda-noiframe iubenda-embed iubenda-noiframe svelte-1dt2qv4" title="Privacy Policy ">Privacy Policy</a><script type="text/javascript">(function (w, d) {
+          var loader = function () {
+            var s = d.createElement("script"),
+              tag = d.getElementsByTagName("script")[0];
+            s.src = "https://cdn.iubenda.com/iubenda.js";
+            tag.parentNode.insertBefore(s, tag);
+          };
+          if (w.addEventListener) {
+            w.addEventListener("load", loader, false);
+          } else if (w.attachEvent) {
+            w.attachEvent("onload", loader);
+          } else {
+            w.onload = loader;
+          }
+        })(window, document);<\/script> <a href="https://www.iubenda.com/privacy-policy/89796861/cookie-policy" class="iubenda-nostyle no-brand iubenda-noiframe iubenda-embed iubenda-noiframe svelte-1dt2qv4" title="Cookie Policy ">Cookie Policy</a><script type="text/javascript">(function (w, d) {
+          var loader = function () {
+            var s = d.createElement("script"),
+              tag = d.getElementsByTagName("script")[0];
+            s.src = "https://cdn.iubenda.com/iubenda.js";
+            tag.parentNode.insertBefore(s, tag);
+          };
+          if (w.addEventListener) {
+            w.addEventListener("load", loader, false);
+          } else if (w.attachEvent) {
+            w.attachEvent("onload", loader);
+          } else {
+            w.onload = loader;
+          }
+        })(window, document);<\/script></div></div> </footer>`;
 });
 const styles = "";
 const Layout = create_ssr_component(($$result, $$props, $$bindings, slots) => {

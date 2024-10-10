@@ -1,13 +1,13 @@
 <script>
-	import Navbar from './Navbar.svelte';
-	import Footer from './Footer.svelte';
-	import './styles.css';
+  import Navbar from "./Navbar.svelte";
+  import Footer from "./Footer.svelte";
+  import "./styles.css";
 </script>
 
 <Navbar />
 
 <main>
-	<slot />
+  <slot />
 </main>
 
 <Footer />
