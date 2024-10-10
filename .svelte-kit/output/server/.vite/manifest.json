@@ -65,12 +65,12 @@
     "src": "src/routes/+layout.svelte"
   },
   "src/routes/+page.css": {
-    "file": "_app/immutable/assets/_page.6c0686b7.css",
+    "file": "_app/immutable/assets/_page.9c8504fe.css",
     "src": "src/routes/+page.css"
   },
   "src/routes/+page.svelte": {
     "css": [
-      "_app/immutable/assets/_page.6c0686b7.css"
+      "_app/immutable/assets/_page.9c8504fe.css"
     ],
     "file": "entries/pages/_page.svelte.js",
     "imports": [
