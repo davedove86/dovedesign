@@ -1,0 +1,200 @@
+{
+  ".svelte-kit/generated/server/internal.js": {
+    "file": "internal.js",
+    "imports": [
+      "_internal.js"
+    ],
+    "isEntry": true,
+    "src": ".svelte-kit/generated/server/internal.js"
+  },
+  "Testimonials.css": {
+    "file": "_app/immutable/assets/Testimonials.99a445f3.css",
+    "src": "Testimonials.css"
+  },
+  "_Testimonials.js": {
+    "css": [
+      "_app/immutable/assets/Testimonials.99a445f3.css"
+    ],
+    "file": "chunks/Testimonials.js",
+    "imports": [
+      "_ssr.js"
+    ]
+  },
+  "_internal.js": {
+    "file": "chunks/internal.js",
+    "imports": [
+      "_ssr.js"
+    ]
+  },
+  "_projectData.js": {
+    "file": "chunks/projectData.js"
+  },
+  "_ssr.js": {
+    "file": "chunks/ssr.js"
+  },
+  "node_modules/@sveltejs/kit/src/runtime/components/error.svelte": {
+    "file": "entries/fallbacks/error.svelte.js",
+    "imports": [
+      "_ssr.js"
+    ],
+    "isEntry": true,
+    "src": "node_modules/@sveltejs/kit/src/runtime/components/error.svelte"
+  },
+  "node_modules/@sveltejs/kit/src/runtime/server/index.js": {
+    "file": "index.js",
+    "imports": [
+      "_internal.js",
+      "_ssr.js"
+    ],
+    "isEntry": true,
+    "src": "node_modules/@sveltejs/kit/src/runtime/server/index.js"
+  },
+  "src/routes/+layout.css": {
+    "file": "_app/immutable/assets/_layout.fba1dc94.css",
+    "src": "src/routes/+layout.css"
+  },
+  "src/routes/+layout.svelte": {
+    "css": [
+      "_app/immutable/assets/_layout.fba1dc94.css"
+    ],
+    "file": "entries/pages/_layout.svelte.js",
+    "imports": [
+      "_ssr.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/+layout.svelte"
+  },
+  "src/routes/+page.css": {
+    "file": "_app/immutable/assets/_page.6c0686b7.css",
+    "src": "src/routes/+page.css"
+  },
+  "src/routes/+page.svelte": {
+    "css": [
+      "_app/immutable/assets/_page.6c0686b7.css"
+    ],
+    "file": "entries/pages/_page.svelte.js",
+    "imports": [
+      "_ssr.js",
+      "_Testimonials.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/+page.svelte"
+  },
+  "src/routes/contact/+page.css": {
+    "file": "_app/immutable/assets/_page.b10608a5.css",
+    "src": "src/routes/contact/+page.css"
+  },
+  "src/routes/contact/+page.js": {
+    "file": "entries/pages/contact/_page.js",
+    "isEntry": true,
+    "src": "src/routes/contact/+page.js"
+  },
+  "src/routes/contact/+page.svelte": {
+    "css": [
+      "_app/immutable/assets/_page.b10608a5.css"
+    ],
+    "file": "entries/pages/contact/_page.svelte.js",
+    "imports": [
+      "_ssr.js",
+      "_Testimonials.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/contact/+page.svelte"
+  },
+  "src/routes/faq/+page.css": {
+    "file": "_app/immutable/assets/_page.d4a014d6.css",
+    "src": "src/routes/faq/+page.css"
+  },
+  "src/routes/faq/+page.svelte": {
+    "css": [
+      "_app/immutable/assets/_page.d4a014d6.css"
+    ],
+    "file": "entries/pages/faq/_page.svelte.js",
+    "imports": [
+      "_ssr.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/faq/+page.svelte"
+  },
+  "src/routes/work/+page.css": {
+    "file": "_app/immutable/assets/_page.cc2c1f3d.css",
+    "src": "src/routes/work/+page.css"
+  },
+  "src/routes/work/+page.svelte": {
+    "css": [
+      "_app/immutable/assets/_page.cc2c1f3d.css"
+    ],
+    "file": "entries/pages/work/_page.svelte.js",
+    "imports": [
+      "_ssr.js",
+      "_projectData.js",
+      "_Testimonials.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/work/+page.svelte"
+  },
+  "src/routes/work/community-peer-mentors/+page.css": {
+    "file": "_app/immutable/assets/_page.6215b1e7.css",
+    "src": "src/routes/work/victim-care-and-advice-service/+page.css"
+  },
+  "src/routes/work/community-peer-mentors/+page.svelte": {
+    "css": [
+      "_app/immutable/assets/_page.6215b1e7.css"
+    ],
+    "file": "entries/pages/work/community-peer-mentors/_page.svelte.js",
+    "imports": [
+      "_ssr.js",
+      "_projectData.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/work/community-peer-mentors/+page.svelte"
+  },
+  "src/routes/work/durham-pcc/+page.css": {
+    "file": "_app/immutable/assets/_page.6215b1e7.css",
+    "src": "src/routes/work/victim-care-and-advice-service/+page.css"
+  },
+  "src/routes/work/durham-pcc/+page.svelte": {
+    "css": [
+      "_app/immutable/assets/_page.6215b1e7.css"
+    ],
+    "file": "entries/pages/work/durham-pcc/_page.svelte.js",
+    "imports": [
+      "_ssr.js",
+      "_projectData.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/work/durham-pcc/+page.svelte"
+  },
+  "src/routes/work/jet-and-ben/+page.css": {
+    "file": "_app/immutable/assets/_page.6215b1e7.css",
+    "src": "src/routes/work/victim-care-and-advice-service/+page.css"
+  },
+  "src/routes/work/jet-and-ben/+page.svelte": {
+    "css": [
+      "_app/immutable/assets/_page.6215b1e7.css"
+    ],
+    "file": "entries/pages/work/jet-and-ben/_page.svelte.js",
+    "imports": [
+      "_ssr.js",
+      "_projectData.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/work/jet-and-ben/+page.svelte"
+  },
+  "src/routes/work/victim-care-and-advice-service/+page.css": {
+    "file": "_app/immutable/assets/_page.6215b1e7.css",
+    "src": "src/routes/work/victim-care-and-advice-service/+page.css"
+  },
+  "src/routes/work/victim-care-and-advice-service/+page.svelte": {
+    "css": [
+      "_app/immutable/assets/_page.6215b1e7.css"
+    ],
+    "file": "entries/pages/work/victim-care-and-advice-service/_page.svelte.js",
+    "imports": [
+      "_ssr.js",
+      "_projectData.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/work/victim-care-and-advice-service/+page.svelte"
+  }
+}
