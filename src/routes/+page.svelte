@@ -10,7 +10,7 @@
   <meta
     name="description"
     content="Looking for a reliable web design agency? Dove Design Ltd creates stunning, high-performing websites tailored to your brand. Elevate your online presence with our custom web design and development services."
-    image="/images/open-graph.jpg"
+    image="../images/open-graph.jpg"
   />
 </svelte:head>
 
