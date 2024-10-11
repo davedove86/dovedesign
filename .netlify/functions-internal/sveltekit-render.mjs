@@ -9,10 +9,10 @@ function __memo(fn) {
 return {
 	appDir: "_app",
 	appPath: "_app",
-	assets: new Set([".DS_Store","android-chrome-192x192.png","android-chrome-256x256.png","apple-touch-icon.png","browserconfig.xml","favicon-16x16.png","favicon-32x32.png","favicon.ico","favicon.png","images/.DS_Store","images/cpm-logo.png","images/cta-banner.jpg","images/design.svg","images/email.svg","images/flowga-portfolio.png","images/footer-logo.svg","images/home-hero.png","images/hosting.svg","images/linkedin-footer.svg","images/linkedin.svg","images/medal.svg","images/nav/logo-only.svg","images/pcc-logo.png","images/phone.svg","images/responsive.svg","images/section-image.webp","images/star.svg","images/tick.svg","images/work/cpm-hero.png","images/work/cpm-portfolio.png","images/work/flowga-portfolio.png","images/work/jetandben-hero.png","images/work/jetandben-portfolio.png","images/work/pcc-hero.png","images/work/pcc-portfolio.png","images/work/vcas-hero.png","images/work/vcas-portfolio.png","mstile-150x150.png","safari-pinned-tab.svg","site.webmanifest"]),
+	assets: new Set([".DS_Store","android-chrome-192x192.png","android-chrome-256x256.png","apple-touch-icon.png","browserconfig.xml","favicon-16x16.png","favicon-32x32.png","favicon.ico","favicon.png","images/.DS_Store","images/cpm-logo.png","images/cta-banner.jpg","images/design.svg","images/email.svg","images/flowga-portfolio.png","images/footer-logo.svg","images/home-hero.png","images/hosting.svg","images/linkedin-footer.svg","images/linkedin.svg","images/medal.svg","images/nav/logo-only.svg","images/open-graph.jpg","images/pcc-logo.png","images/phone.svg","images/responsive.svg","images/section-image.webp","images/star.svg","images/tick.svg","images/work/cpm-hero.png","images/work/cpm-portfolio.png","images/work/flowga-portfolio.png","images/work/jetandben-hero.png","images/work/jetandben-portfolio.png","images/work/pcc-hero.png","images/work/pcc-portfolio.png","images/work/vcas-hero.png","images/work/vcas-portfolio.png","mstile-150x150.png","safari-pinned-tab.svg","site.webmanifest"]),
 	mimeTypes: {".png":"image/png",".xml":"application/xml",".jpg":"image/jpeg",".svg":"image/svg+xml",".webp":"image/webp",".webmanifest":"application/manifest+json"},
 	_: {
-		client: {"start":"_app/immutable/entry/start.e2a90244.js","app":"_app/immutable/entry/app.dc60f38e.js","imports":["_app/immutable/entry/start.e2a90244.js","_app/immutable/chunks/scheduler.63274e7e.js","_app/immutable/chunks/singletons.6ca1f5fc.js","_app/immutable/entry/app.dc60f38e.js","_app/immutable/chunks/scheduler.63274e7e.js","_app/immutable/chunks/index.2226f978.js"],"stylesheets":[],"fonts":[]},
+		client: {"start":"_app/immutable/entry/start.d54a57ac.js","app":"_app/immutable/entry/app.c2fe50d4.js","imports":["_app/immutable/entry/start.d54a57ac.js","_app/immutable/chunks/scheduler.63274e7e.js","_app/immutable/chunks/singletons.76c5e562.js","_app/immutable/entry/app.c2fe50d4.js","_app/immutable/chunks/scheduler.63274e7e.js","_app/immutable/chunks/index.2226f978.js"],"stylesheets":[],"fonts":[]},
 		nodes: [
 			__memo(() => import('../server/nodes/0.js')),
 			__memo(() => import('../server/nodes/1.js')),
@@ -38,6 +38,13 @@ return {
 				params: [],
 				page: { layouts: [0,], errors: [1,], leaf: 3 },
 				endpoint: null
+			},
+			{
+				id: "/sitemap.xml",
+				pattern: /^\/sitemap\.xml\/?$/,
+				params: [],
+				page: null,
+				endpoint: __memo(() => import('../server/entries/endpoints/sitemap.xml/_server.ts.js'))
 			},
 			{
 				id: "/work",

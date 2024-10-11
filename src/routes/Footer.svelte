@@ -6,18 +6,18 @@
       >
       <div>
         <ul>
-          <a href="/">
-            <li>Home</li>
-          </a>
-          <a href="/work">
-            <li>Our Work</li>
-          </a>
-          <a href="/faq">
-            <li>FAQs</li>
-          </a>
-          <a href="/contact">
-            <li>Contact</li>
-          </a>
+          <li>
+            <a href="/">Home</a>
+          </li>
+          <li>
+            <a href="/work">Work</a>
+          </li>
+          <li>
+            <a href="/faq">FAQs</a>
+          </li>
+          <li>
+            <a href="/contact">Contact</a>
+          </li>
         </ul>
       </div>
       <a href="https://www.linkedin.com/company/dovedesignweb/" target="_blank"
@@ -121,13 +121,19 @@
       gap: 1rem;
     }
 
+    .center-align-grid {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+
     ul {
       display: block;
       text-align: center;
       margin: 1rem 0;
     }
 
-    ul a li {
+    ul li {
       margin: 1rem 0;
     }
   }

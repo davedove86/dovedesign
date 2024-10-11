@@ -53,13 +53,14 @@ const faqData = [
 ];
 const _page_svelte_svelte_type_style_lang = "";
 const css = {
-  code: ".container.svelte-i59kdj.svelte-i59kdj{display:flex;flex-direction:column;align-items:center}.grid-col-2.svelte-i59kdj.svelte-i59kdj{display:flex;max-width:800px;margin:0 auto}h1.svelte-i59kdj.svelte-i59kdj{margin-bottom:2rem}.faq-wrap.svelte-i59kdj.svelte-i59kdj{margin-bottom:2rem}.faq-wrap.svelte-i59kdj h2.svelte-i59kdj{margin-bottom:1rem;font-size:2rem}.faq-wrap.svelte-i59kdj p.svelte-i59kdj{margin-bottom:2rem}",
+  code: ".container.svelte-lnlf3b.svelte-lnlf3b{display:flex;flex-direction:column;align-items:center}.grid-col-2.svelte-lnlf3b.svelte-lnlf3b{display:flex;max-width:800px;margin:0 auto}h1.svelte-lnlf3b.svelte-lnlf3b{margin-bottom:2rem}.faq-wrap.svelte-lnlf3b.svelte-lnlf3b{margin-bottom:2rem}.faq-wrap.svelte-lnlf3b h2.svelte-lnlf3b{margin-bottom:1rem;font-size:2rem}.faq-wrap.svelte-lnlf3b p.svelte-lnlf3b{margin-bottom:2rem}",
   map: null
 };
 const Page = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   $$result.css.add(css);
-  return `<section><div class="container svelte-i59kdj"><h1 class="svelte-i59kdj" data-svelte-h="svelte-w78x8p">FAQs</h1> <div class="grid-col-2 svelte-i59kdj"></div> ${each(faqData, (faqs) => {
-    return `<div class="grid-col-2 svelte-i59kdj"><div class="faq-wrap svelte-i59kdj"><h2 class="svelte-i59kdj">${escape(faqs.question)}</h2> <p class="svelte-i59kdj">${escape(faqs.answer)}</p></div> </div>`;
+  return `${$$result.head += `<!-- HEAD_svelte-vuy37m_START -->${$$result.title = `<title>Web Design FAQs | Dove Design Ltd | Answers to Common Website Design
+    Questions</title>`, ""}<meta name="description" content="Got questions about web design? Visit Dove Design Ltd's FAQ page for answers to the most common questions about our process, pricing, timeline, and more."><!-- HEAD_svelte-vuy37m_END -->`, ""} <section><div class="container svelte-lnlf3b"><h1 class="svelte-lnlf3b" data-svelte-h="svelte-w78x8p">FAQs</h1> <div class="grid-col-2 svelte-lnlf3b"></div> ${each(faqData, (faqs) => {
+    return `<div class="grid-col-2 svelte-lnlf3b"><div class="faq-wrap svelte-lnlf3b"><h2 class="svelte-lnlf3b">${escape(faqs.question)}</h2> <p class="svelte-lnlf3b">${escape(faqs.answer)}</p></div> </div>`;
   })}</div> </section>`;
 });
 export {

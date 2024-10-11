@@ -1,4 +1,4 @@
-import { c as create_ssr_component, e as escape, b as add_attribute, v as validate_component } from "../../chunks/ssr.js";
+import { c as create_ssr_component, v as validate_component } from "../../chunks/ssr.js";
 import { T as Testimonials } from "../../chunks/Testimonials.js";
 const _page_svelte_svelte_type_style_lang = "";
 const css = {
@@ -6,14 +6,9 @@ const css = {
   map: null
 };
 const Page = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-  let { title = "Dove Design Ltd | Home" } = $$props;
-  let { description = "At Dove Design, we specialise in creating visually appealing and highly functional websites that help businesses succeed online." } = $$props;
-  if ($$props.title === void 0 && $$bindings.title && title !== void 0)
-    $$bindings.title(title);
-  if ($$props.description === void 0 && $$bindings.description && description !== void 0)
-    $$bindings.description(description);
   $$result.css.add(css);
-  return `${$$result.head += `<!-- HEAD_svelte-1law5hj_START -->${$$result.title = `<title>${escape(title)}</title>`, ""}<meta name="description"${add_attribute("content", description, 0)}><!-- HEAD_svelte-1law5hj_END -->`, ""} <header class="svelte-15g15wu" data-svelte-h="svelte-1pz0rcg"><div class="container svelte-15g15wu"><div class="home-hero svelte-15g15wu"><div class="home-hero-text svelte-15g15wu"><h1>Transforming businesses with <span>stunning websites</span></h1> <p class="svelte-15g15wu">At Dove Design, we specialise in creating visually appealing and
+  return `${$$result.head += `<!-- HEAD_svelte-1s02q4d_START -->${$$result.title = `<title>Professional Web Design Agency | Dove Design Ltd | Custom Websites &amp;
+    Digital Solutions</title>`, ""}<meta name="description" content="Looking for a reliable web design agency? Dove Design Ltd creates stunning, high-performing websites tailored to your brand. Elevate your online presence with our custom web design and development services." image="/images/open-graph.jpg"><!-- HEAD_svelte-1s02q4d_END -->`, ""} <header class="svelte-15g15wu" data-svelte-h="svelte-1pz0rcg"><div class="container svelte-15g15wu"><div class="home-hero svelte-15g15wu"><div class="home-hero-text svelte-15g15wu"><h1>Transforming businesses with <span>stunning websites</span></h1> <p class="svelte-15g15wu">At Dove Design, we specialise in creating visually appealing and
           highly functional websites that help businesses succeed online. Our
           team of experts combines design and technology to deliver exceptional
           user experiences.</p> <div class="button-wrap svelte-15g15wu"><a class="button svelte-15g15wu" href="/contact">Contact Us</a> <a class="is-secondary svelte-15g15wu" href="/work">Our Work</a></div></div> <img src="/images/home-hero.png" alt="Dove Design Portfolio screenshots" class="svelte-15g15wu"></div></div></header> <section data-svelte-h="svelte-nzbgdt"><div class="container svelte-15g15wu"><div class="grid-col-2 svelte-15g15wu"><div class="home-hero-text svelte-15g15wu"><p class="section-kicker svelte-15g15wu">How can we help</p> <h2>Experts in Web <span>Design</span> &amp; Web <span>Development</span></h2> <p class="svelte-15g15wu">At Dove Design, we offer a range of services to help businesses

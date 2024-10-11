@@ -1,14 +1,17 @@
 <script>
   import Testimonials from "./Testimonials.svelte";
-  export let title = "Dove Design Ltd | Home";
-  export let description =
-    "At Dove Design, we specialise in creating visually appealing and highly functional websites that help businesses succeed online.";
-  // export let image = "https://example.com/your-logo.png”;
 </script>
 
 <svelte:head>
-  <title>{title}</title>
-  <meta name="description" content={description} />
+  <title
+    >Professional Web Design Agency | Dove Design Ltd | Custom Websites &
+    Digital Solutions</title
+  >
+  <meta
+    name="description"
+    content="Looking for a reliable web design agency? Dove Design Ltd creates stunning, high-performing websites tailored to your brand. Elevate your online presence with our custom web design and development services."
+    image="/images/open-graph.jpg"
+  />
 </svelte:head>
 
 <header>

@@ -1,11 +1,3 @@
-<svelte:head>
-  <title>Dove Design Ltd | Contact Us</title>
-  <meta
-    name="description"
-    content="We're here to answer any questions you may have. Contact us today!"
-  />
-</svelte:head>
-
 <section>
   <div class="container">
     <div class="section-kicker">Contact Us</div>
