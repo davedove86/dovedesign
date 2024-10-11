@@ -11,12 +11,12 @@
     name="description"
     content="This page showcases the Durham Police and Crime Commissioner website that was build to help the service to offer services to help support people in the community."
   />
-  <meta property="og:image" content="./images/open-graph.jpg" />
+  <meta property="og:image" content="/images/open-graph.jpg" />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
   <meta property="og:image:alt" content="Dove Design Ltd" />
   <meta property="og:image:type" content="image/jpeg" />
-  <meta property="og:image:secure_url" content="./images/open-graph.jpg" />
+  <meta property="og:image:secure_url" content="/images/open-graph.jpg" />
 </svelte:head>
 
 <section>
