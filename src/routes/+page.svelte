@@ -10,8 +10,13 @@
   <meta
     name="description"
     content="Looking for a reliable web design agency? Dove Design Ltd creates stunning, high-performing websites tailored to your brand. Elevate your online presence with our custom web design and development services."
-    image="../images/open-graph.jpg"
   />
+  <meta property="og:image" content="/images/open-graph.jpg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="Dove Design Ltd" />
+  <meta property="og:image:type" content="image/jpeg" />
+  <meta property="og:image:secure_url" content="/images/open-graph.jpg" />
 </svelte:head>
 
 <header>
