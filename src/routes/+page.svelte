@@ -4,12 +4,12 @@
 
 <svelte:head>
   <title
-    >Professional Web Design Agency | Dove Design Ltd | Custom Websites &
-    Digital Solutions</title
+    >Professional Web Design & Webflow Agency | Dove Design Ltd | Custom
+    Websites & Digital Solutions</title
   >
   <meta
     name="description"
-    content="Looking for a reliable web design agency? Dove Design Ltd creates stunning, high-performing websites tailored to your brand. Elevate your online presence with our custom web design and development services."
+    content="Looking for a reliable web design agency? Dove Design Ltd creates stunning, high-performing websites tailored to your brand. Elevate your online presence with our custom web design and Webflow development services."
   />
   <meta property="og:image" content="/images/open-graph.jpg" />
   <meta property="og:image:width" content="1200" />
@@ -28,7 +28,7 @@
           At Dove Design, we specialise in creating visually appealing and
           highly functional websites that help businesses succeed online. Our
           team of experts combines design and technology to deliver exceptional
-          user experiences.
+          user experiences alongside the Webflow Platform.
         </p>
         <div class="button-wrap">
           <a class="button" href="/contact">Contact Us</a>
@@ -49,11 +49,11 @@
       <div class="home-hero-text">
         <p class="section-kicker">How can we help</p>
         <h2>
-          Experts in Web <span>Design</span> & Web <span>Development</span>
+          Experts in Web <span>Design</span> & Webflow <span>Development</span>
         </h2>
         <p>
           At Dove Design, we offer a range of services to help businesses
-          succeed online. Our team of experts specialises in design,
+          succeed online. Our team of experts specialises in design, Webflow
           development, and maintenance, ensuring that your website is visually
           stunning, user-friendly, and always up to date.
         </p>
@@ -75,8 +75,8 @@
             <img src="/images/responsive.svg" alt="responsive web design" />
             <h3>Web Development</h3>
             <p>
-              We bring your website to life with custom development solutions
-              that are tailored to your business needs and objectives.
+              We bring your website to life with custom Webflow development
+              solutions that are tailored to your business needs and objectives.
             </p>
           </div>
           <div class="icon-item-wrapper">
