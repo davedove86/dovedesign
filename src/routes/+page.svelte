@@ -4,8 +4,8 @@
 
 <svelte:head>
   <title
-    >Professional Web Design & Webflow Agency | Dove Design Ltd | Custom
-    Websites & Digital Solutions</title
+    >Professional Web Design and Webflow Agency | Dove Design Ltd | Custom
+    Websites and Digital Solutions</title
   >
   <meta
     name="description"
