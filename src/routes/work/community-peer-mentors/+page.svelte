@@ -22,10 +22,16 @@
   <div class="container project-container">
     <img src={projects[3].heroImage} alt="Durham PCC Logo" />
     <h1 class="project-heading">{projects[3].name}</h1>
-    <p class="project-description">{projects[3].overview}</p>
-    <p class="project-description">{projects[3].overviewTwo}</p>
+    <h2>Overview</h2>
+    <p class="project-description">
+      {projects[3].overview}
+    </p>
+    <h2>What We Did</h2>
+    <p class="project-description">{projects[3].whatWeDid}</p>
+    <h2>The Outcome</h2>
+    <p class="project-description">{projects[3].outcome}</p>
     <a href={projects[3].website} target="_blank" rel="noopener noreferrer"
-      >Visit the Website</a
+      ><button>Visit the website</button></a
     >
   </div>
 </section>
@@ -38,16 +44,15 @@
     max-width: 1240px;
   }
 
+  h2 {
+    margin-top: 2rem;
+  }
+
   img {
     margin-bottom: 2rem;
   }
   p {
     margin-bottom: 1rem;
-  }
-
-  a {
-    margin-top: 1rem;
-    color: var(--accent-blue);
-    text-decoration: underline;
+    white-space: pre-line;
   }
 </style>

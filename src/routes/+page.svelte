@@ -275,7 +275,7 @@
     position: absolute;
     top: 0;
   }
-
+  /* CTA Banner z index */
   .z-index {
     z-index: 10;
   }
@@ -289,6 +289,7 @@
       display: flex;
       flex-direction: column;
       gap: 3rem;
+      padding: 3rem 0 0 0;
     }
     header img {
       position: static;

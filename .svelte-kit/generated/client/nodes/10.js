@@ -1,0 +1,1 @@
+export { default as component } from "../../../../src/routes/work/victim-care-and-advice-service/+page.svelte";
