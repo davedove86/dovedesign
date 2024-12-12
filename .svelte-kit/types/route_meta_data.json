@@ -8,8 +8,5 @@
 		"src/routes/sitemap.xml/+server.ts"
 	],
 	"/work": [],
-	"/work/community-peer-mentors": [],
-	"/work/durham-pcc": [],
-	"/work/jet-and-ben": [],
-	"/work/victim-care-and-advice-service": []
+	"/work/[projectId]": []
 }

@@ -16,31 +16,31 @@ const css = {
 };
 const Footer = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   $$result.css.add(css);
-  return `<footer class="svelte-tkm5cl" data-svelte-h="svelte-i2ykmy"><div class="container"><div class="footer-grid svelte-tkm5cl"><a href="/" class="svelte-tkm5cl"><img src="/images/footer-logo.svg" alt="Dove Design Logo" class="svelte-tkm5cl"></a> <div><ul class="svelte-tkm5cl"><li class="svelte-tkm5cl"><a href="/" class="svelte-tkm5cl">Home</a></li> <li class="svelte-tkm5cl"><a href="/work" class="svelte-tkm5cl">Work</a></li> <li class="svelte-tkm5cl"><a href="/faq" class="svelte-tkm5cl">FAQs</a></li> <li class="svelte-tkm5cl"><a href="/contact" class="svelte-tkm5cl">Contact</a></li></ul></div> <a href="https://www.linkedin.com/company/dovedesignweb/" target="_blank" class="svelte-tkm5cl"><img src="/images/linkedin-footer.svg" alt="" class="svelte-tkm5cl"></a></div> <div class="center-align-grid svelte-tkm5cl"><p class="svelte-tkm5cl">©<span id="currentYear">2024</span> Dove Design Ltd</p> <a href="https://www.iubenda.com/privacy-policy/89796861" class="iubenda-nostyle no-brand iubenda-noiframe iubenda-embed iubenda-noiframe svelte-tkm5cl" title="Privacy Policy ">Privacy Policy</a><script type="text/javascript">(function (w, d) {
+  return `<footer class="svelte-tkm5cl" data-svelte-h="svelte-13ir4zu"><div class="container"><div class="footer-grid svelte-tkm5cl"><a href="/" class="svelte-tkm5cl"><img src="/images/footer-logo.svg" alt="Dove Design Logo" class="svelte-tkm5cl"></a> <div><ul class="svelte-tkm5cl"><li class="svelte-tkm5cl"><a href="/" class="svelte-tkm5cl">Home</a></li> <li class="svelte-tkm5cl"><a href="/work" class="svelte-tkm5cl">Work</a></li> <li class="svelte-tkm5cl"><a href="/faq" class="svelte-tkm5cl">FAQs</a></li> <li class="svelte-tkm5cl"><a href="/contact" class="svelte-tkm5cl">Contact</a></li></ul></div> <a href="https://www.linkedin.com/company/dovedesignweb/" target="_blank" class="svelte-tkm5cl"><img src="/images/linkedin-footer.svg" alt="" class="svelte-tkm5cl"></a></div> <div class="center-align-grid svelte-tkm5cl"><p class="svelte-tkm5cl">©<span id="currentYear">2024</span> Dove Design Ltd</p> <a href="https://www.iubenda.com/privacy-policy/89796861" class="iubenda-nostyle no-brand iubenda-noiframe iubenda-embed iubenda-noiframe svelte-tkm5cl" title="Privacy Policy ">Privacy Policy</a><script type="text/javascript">(function (w, d) {
           var loader = function () {
-            var s = d.createElement("script"),
-              tag = d.getElementsByTagName("script")[0];
-            s.src = "https://cdn.iubenda.com/iubenda.js";
+            var s = d.createElement('script'),
+              tag = d.getElementsByTagName('script')[0];
+            s.src = 'https://cdn.iubenda.com/iubenda.js';
             tag.parentNode.insertBefore(s, tag);
           };
           if (w.addEventListener) {
-            w.addEventListener("load", loader, false);
+            w.addEventListener('load', loader, false);
           } else if (w.attachEvent) {
-            w.attachEvent("onload", loader);
+            w.attachEvent('onload', loader);
           } else {
             w.onload = loader;
           }
         })(window, document);<\/script> <a href="https://www.iubenda.com/privacy-policy/89796861/cookie-policy" class="iubenda-nostyle no-brand iubenda-noiframe iubenda-embed iubenda-noiframe svelte-tkm5cl" title="Cookie Policy ">Cookie Policy</a><script type="text/javascript">(function (w, d) {
           var loader = function () {
-            var s = d.createElement("script"),
-              tag = d.getElementsByTagName("script")[0];
-            s.src = "https://cdn.iubenda.com/iubenda.js";
+            var s = d.createElement('script'),
+              tag = d.getElementsByTagName('script')[0];
+            s.src = 'https://cdn.iubenda.com/iubenda.js';
             tag.parentNode.insertBefore(s, tag);
           };
           if (w.addEventListener) {
-            w.addEventListener("load", loader, false);
+            w.addEventListener('load', loader, false);
           } else if (w.attachEvent) {
-            w.attachEvent("onload", loader);
+            w.attachEvent('onload', loader);
           } else {
             w.onload = loader;
           }
