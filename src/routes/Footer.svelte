@@ -25,7 +25,10 @@
       >
     </div>
     <div class="center-align-grid">
-      <p>&copy;<span id="currentYear">2024</span> Dove Design Ltd</p>
+      <p>
+        &copy;<span id="currentYear">{new Date().getFullYear()}</span> Dove Design
+        Ltd
+      </p>
       <a
         href="https://www.iubenda.com/privacy-policy/89796861"
         class="iubenda-nostyle no-brand iubenda-noiframe iubenda-embed iubenda-noiframe"
