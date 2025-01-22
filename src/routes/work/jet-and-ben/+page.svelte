@@ -1,5 +1,5 @@
 <script>
-  import projects from "../../data/projectData";
+  import projects from '../../data/projectData';
 </script>
 
 <svelte:head>
@@ -21,17 +21,17 @@
 
 <section>
   <div class="container project-container">
-    <img src={projects[3].heroImage} alt="Durham PCC Logo" />
-    <h1 class="project-heading">{projects[3].name}</h1>
+    <img src={projects[2].heroImage} alt="Durham PCC Logo" />
+    <h1 class="project-heading">{projects[2].name}</h1>
     <h2>Overview</h2>
     <p class="project-description">
-      {projects[3].overview}
+      {projects[2].overview}
     </p>
     <h2>What We Did</h2>
-    <p class="project-description">{projects[3].whatWeDid}</p>
+    <p class="project-description">{projects[2].whatWeDid}</p>
     <h2>The Outcome</h2>
-    <p class="project-description">{projects[3].outcome}</p>
-    <a href={projects[3].website} target="_blank" rel="noopener noreferrer"
+    <p class="project-description">{projects[2].outcome}</p>
+    <a href={projects[2].website} target="_blank" rel="noopener noreferrer"
       ><button>Visit the website</button></a
     >
   </div>

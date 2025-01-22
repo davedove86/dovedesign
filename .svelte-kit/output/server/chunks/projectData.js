@@ -59,21 +59,13 @@ const projects = [
     kicker: "CMS driven website for the community of County Durham & Darlington",
     tags: ["Webflow", "CMS", "Web Design"],
     website: "https://www.jetandben.com/",
-    overview: `The newly developed website for The Victim Care and Advice Service (VCAS) offers a comprehensive digital platform for individuals seeking support and guidance in County Durham and Darlington. Designed with a focus on user experience and accessibility, the site provides valuable resources and information in a clear and intuitive format, empowering visitors to connect with support services and access essential information.
-
-    In addition to its sleek design and enhanced functionality, the new website prioritises accessibility and inclusivity. Built with responsiveness in mind, it offers an optimised experience across all devices, ensuring users can easily navigate from desktops, tablets, or smartphones. The improved interface and intuitive layout make it easier for the public to stay informed about key issues, engage with ongoing initiatives, and access essential resources, reflecting the office's commitment to transparency and community outreach.`,
-    whatWeDid: `To create the website for the Victim Care and Advice Service (VCAS), we started with a user-centric design approach, ensuring that the platform would be both accessible and easy to navigate.
+    overview: `A website for the Durham Police’s Safety Dogs, who visit educational settings and other community engagement events to teach people about personal safety, hate crime and the role of the police. The website is designed to be user-friendly and accessible, with a clean and modern aesthetic that is easy to navigate. The site is fully responsive, ensuring that it looks great on all devices, from desktops to smartphones.`,
+    whatWeDid: `To create the website for the Jet & Ben brand for Durham Police, we started with a user-centric design approach, ensuring that the platform would be both accessible and easy to navigate.
 
     Using modern design tools, we crafted a sleek and intuitive interface that organizes essential resources in a clear, logical format.
 
-    Our development process focused on building a responsive site that delivers a seamless experience across all devices, from desktops to smartphones. We also prioritized accessibility and inclusivity, implementing features that allow all users, regardless of ability, to engage with the website and access the information they need.
-
-    Through this approach, we delivered a platform that effectively supports the community and reflects VCAS’s commitment to transparency and outreach.`,
-    outcome: `The new website for the Victim Care and Advice Service (VCAS) has successfully enhanced accessibility and user engagement, providing a comprehensive digital platform that meets the needs of the community.
-
-    With its responsive design, the site offers an optimized experience on all devices, ensuring that users can easily find and access support services, no matter where they are.
-
-    The streamlined interface and intuitive layout have simplified navigation, allowing visitors to quickly connect with key resources and stay informed about important issues. Overall, the project has delivered a modern, inclusive platform that strengthens VCAS’s commitment to providing vital support and information to the public.`,
+    Our development process focused on building a responsive site that delivers a seamless experience across all devices, from desktops to smartphones. We also prioritized accessibility and inclusivity, implementing features that allow all users, regardless of ability, to engage with the website and access the information they need.`,
+    outcome: `The new website also emphasises security and performance, incorporating best practices in web development to ensure fast loading times and robust protection against potential threats. By utilising modern web standards and technologies, it enhances the reliability of the site, ensuring that crucial updates and resources are consistently available to the public. This upgrade not only benefits users but also empowers the internal team with efficient tools for updating and maintaining the site, ensuring long-term sustainability and effectiveness.`,
     image: "../images/work/jetandben-portfolio.png",
     heroImage: "../images/work/jetandben-hero.png",
     link: "/work/jet-and-ben"

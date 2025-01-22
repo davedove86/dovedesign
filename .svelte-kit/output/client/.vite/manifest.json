@@ -12,7 +12,7 @@
       ".svelte-kit/generated/client-optimized/nodes/8.js",
       ".svelte-kit/generated/client-optimized/nodes/9.js"
     ],
-    "file": "_app/immutable/entry/app.6c04f0ae.js",
+    "file": "_app/immutable/entry/app.2ada5dfb.js",
     "imports": [
       "_scheduler.63274e7e.js",
       "_index.2226f978.js"
@@ -38,11 +38,11 @@
     "src": ".svelte-kit/generated/client-optimized/nodes/0.js"
   },
   ".svelte-kit/generated/client-optimized/nodes/1.js": {
-    "file": "_app/immutable/nodes/1.ec752ead.js",
+    "file": "_app/immutable/nodes/1.75b4e9c1.js",
     "imports": [
       "_scheduler.63274e7e.js",
       "_index.2226f978.js",
-      "_singletons.c552340b.js"
+      "_singletons.ceaf8197.js"
     ],
     "isDynamicEntry": true,
     "isEntry": true,
@@ -110,12 +110,12 @@
     "css": [
       "_app/immutable/assets/5.e0d370a0.css"
     ],
-    "file": "_app/immutable/nodes/5.fb14478f.js",
+    "file": "_app/immutable/nodes/5.642e0e90.js",
     "imports": [
       "_scheduler.63274e7e.js",
       "_index.2226f978.js",
       "_each.e59479a4.js",
-      "_projectData.5f283536.js",
+      "_projectData.c2104afa.js",
       "_Testimonials.c61882bc.js"
     ],
     "isDynamicEntry": true,
@@ -130,11 +130,11 @@
     "css": [
       "_app/immutable/assets/6.121ab319.css"
     ],
-    "file": "_app/immutable/nodes/6.698a1d76.js",
+    "file": "_app/immutable/nodes/6.a1cbfb7b.js",
     "imports": [
       "_scheduler.63274e7e.js",
       "_index.2226f978.js",
-      "_projectData.5f283536.js"
+      "_projectData.c2104afa.js"
     ],
     "isDynamicEntry": true,
     "isEntry": true,
@@ -148,12 +148,12 @@
     "css": [
       "_app/immutable/assets/7.c042cd06.css"
     ],
-    "file": "_app/immutable/nodes/7.6df96911.js",
+    "file": "_app/immutable/nodes/7.117a0490.js",
     "imports": [
       "_scheduler.63274e7e.js",
       "_index.2226f978.js",
       "_each.e59479a4.js",
-      "_projectData.5f283536.js"
+      "_projectData.c2104afa.js"
     ],
     "isDynamicEntry": true,
     "isEntry": true,
@@ -167,11 +167,11 @@
     "css": [
       "_app/immutable/assets/6.121ab319.css"
     ],
-    "file": "_app/immutable/nodes/8.10905929.js",
+    "file": "_app/immutable/nodes/8.d454f8b5.js",
     "imports": [
       "_scheduler.63274e7e.js",
       "_index.2226f978.js",
-      "_projectData.5f283536.js"
+      "_projectData.c2104afa.js"
     ],
     "isDynamicEntry": true,
     "isEntry": true,
@@ -185,11 +185,11 @@
     "css": [
       "_app/immutable/assets/6.121ab319.css"
     ],
-    "file": "_app/immutable/nodes/9.0a0be550.js",
+    "file": "_app/immutable/nodes/9.346aa8c5.js",
     "imports": [
       "_scheduler.63274e7e.js",
       "_index.2226f978.js",
-      "_projectData.5f283536.js"
+      "_projectData.c2104afa.js"
     ],
     "isDynamicEntry": true,
     "isEntry": true,
@@ -219,23 +219,23 @@
       "_scheduler.63274e7e.js"
     ]
   },
-  "_projectData.5f283536.js": {
-    "file": "_app/immutable/chunks/projectData.5f283536.js"
+  "_projectData.c2104afa.js": {
+    "file": "_app/immutable/chunks/projectData.c2104afa.js"
   },
   "_scheduler.63274e7e.js": {
     "file": "_app/immutable/chunks/scheduler.63274e7e.js"
   },
-  "_singletons.c552340b.js": {
-    "file": "_app/immutable/chunks/singletons.c552340b.js",
+  "_singletons.ceaf8197.js": {
+    "file": "_app/immutable/chunks/singletons.ceaf8197.js",
     "imports": [
       "_scheduler.63274e7e.js"
     ]
   },
   "node_modules/@sveltejs/kit/src/runtime/client/start.js": {
-    "file": "_app/immutable/entry/start.9488f755.js",
+    "file": "_app/immutable/entry/start.d8333ac4.js",
     "imports": [
       "_scheduler.63274e7e.js",
-      "_singletons.c552340b.js"
+      "_singletons.ceaf8197.js"
     ],
     "isEntry": true,
     "src": "node_modules/@sveltejs/kit/src/runtime/client/start.js"
