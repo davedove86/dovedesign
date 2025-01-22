@@ -1,6 +1,6 @@
 <script>
-  import projects from "../data/projectData";
-  import Testimonials from "../Testimonials.svelte";
+  import projects from '../data/projectData';
+  import Testimonials from '../Testimonials.svelte';
 </script>
 
 <svelte:head>
@@ -12,12 +12,18 @@
     name="description"
     content="Explore the web design portfolio of Dove Design Ltd, featuring cutting-edge websites for diverse industries. From e-commerce to corporate sites, see how we deliver outstanding digital experiences."
   />
-  <meta property="og:image" content="/images/open-graph.jpg" />
+  <meta
+    property="og:image"
+    content="https://dovedesign.io/images/open-graph.jpg"
+  />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
   <meta property="og:image:alt" content="Dove Design Ltd" />
   <meta property="og:image:type" content="image/jpeg" />
-  <meta property="og:image:secure_url" content="/images/open-graph.jpg" />
+  <meta
+    property="og:image:secure_url"
+    content="https://dovedesign.io/images/open-graph.jpg"
+  />
 </svelte:head>
 
 <section>
