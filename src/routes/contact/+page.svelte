@@ -1,5 +1,5 @@
 <script>
-  import Testimonials from "../Testimonials.svelte";
+  import Testimonials from '../Testimonials.svelte';
 </script>
 
 <svelte:head>
@@ -8,12 +8,18 @@
     name="description"
     content="Ready to bring your website to life? Contact the experts at Dove Design Ltd to discuss your project. Get in touch for a free consultation and customized digital solutions."
   />
-  <meta property="og:image" content="/images/open-graph.jpg" />
+  <meta
+    property="og:image"
+    content="https://dovedesign.io/images/open-graph.jpg"
+  />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
   <meta property="og:image:alt" content="Dove Design Ltd" />
   <meta property="og:image:type" content="image/jpeg" />
-  <meta property="og:image:secure_url" content="/images/open-graph.jpg" />
+  <meta
+    property="og:image:secure_url"
+    content="https://dovedesign.io/images/open-graph.jpg"
+  />
 </svelte:head>
 
 <section>
