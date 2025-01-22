@@ -1,5 +1,5 @@
 <script>
-  import projects from "../../data/projectData";
+  import projects from '../../data/projectData';
   let currentProjectIndex = 0;
 </script>
 
@@ -153,10 +153,6 @@
   p {
     margin-bottom: 1rem;
     white-space: pre-line;
-  }
-
-  .center {
-    text-align: center;
   }
 
   a {

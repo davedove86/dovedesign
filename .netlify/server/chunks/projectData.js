@@ -51,7 +51,13 @@ const projects = [
     The streamlined interface and intuitive layout have simplified navigation, allowing visitors to quickly connect with key resources and stay informed about important issues. Overall, the project has delivered a modern, inclusive platform that strengthens VCAS’s commitment to providing vital support and information to the public.`,
     image: "../images/work/vcas-portfolio.png",
     heroImage: "../images/work/vcas-hero.png",
-    link: "/work/victim-care-and-advice-service"
+    link: "/work/victim-care-and-advice-service",
+    clientName: "Durham PCC",
+    date: "2023",
+    testimonialName: "Mark Warcup",
+    testimonialTitle: "Victim Care & Advice Service",
+    crest: "../images/work/vcas-logo.png",
+    testimonialQuote: '"We commissioned our new website with Dove Design and they have been fantastic to work with on this major project. They were brilliant to work with during development of the project, were quick to respond to any queries we had and were always available to contact. We would recommend to anyone."'
   },
   {
     id: 3,
@@ -68,7 +74,13 @@ const projects = [
     outcome: `The new website also emphasises security and performance, incorporating best practices in web development to ensure fast loading times and robust protection against potential threats. By utilising modern web standards and technologies, it enhances the reliability of the site, ensuring that crucial updates and resources are consistently available to the public. This upgrade not only benefits users but also empowers the internal team with efficient tools for updating and maintaining the site, ensuring long-term sustainability and effectiveness.`,
     image: "../images/work/jetandben-portfolio.png",
     heroImage: "../images/work/jetandben-hero.png",
-    link: "/work/jet-and-ben"
+    link: "/work/jet-and-ben",
+    clientName: "Durham Constabulary",
+    date: "2023",
+    testimonialName: "Claire Kerr",
+    testimonialTitle: "Durham Constabulary",
+    crest: "../images/work/jb-logo.svg",
+    testimonialQuote: '"We commissioned our new website with Dove Design and they have been fantastic to work with on this major project. They were brilliant to work with during development of the project, were quick to respond to any queries we had and were always available to contact. We would recommend to anyone."'
   },
   {
     id: 4,
@@ -91,7 +103,13 @@ const projects = [
     The commitment to accessibility ensures that all users, regardless of ability or device, can engage with the site without barriers, reflecting the Office’s dedication to serving the entire community.`,
     image: "../images/work/cpm-portfolio.png",
     heroImage: "../images/work/cpm-hero.png",
-    link: "/work/community-peer-mentors"
+    link: "/work/community-peer-mentors",
+    clientName: "Durham PCC",
+    date: "2022",
+    testimonialName: "Jim Cunningham",
+    testimonialTitle: "Durham Community Peer Mentors",
+    crest: "../images/work/cpm-logo.png",
+    testimonialQuote: '""I cannot praise Dove Design enough. From the very start of this project they were very professional, providing great support, advice and guidance at all times. The process was quick and completed before the deadline and the final product was brilliant. Thank you so much for everything."'
   }
 ];
 export {

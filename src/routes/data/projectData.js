@@ -58,6 +58,13 @@ export const projects = [
     image: '../images/work/vcas-portfolio.png',
     heroImage: '../images/work/vcas-hero.png',
     link: '/work/victim-care-and-advice-service',
+    clientName: 'Durham PCC',
+    date: '2023',
+    testimonialName: 'Mark Warcup',
+    testimonialTitle: 'Victim Care & Advice Service',
+    crest: '../images/work/vcas-logo.png',
+    testimonialQuote:
+      '"We commissioned our new website with Dove Design and they have been fantastic to work with on this major project. They were brilliant to work with during development of the project, were quick to respond to any queries we had and were always available to contact. We would recommend to anyone."',
   },
 
   {
@@ -79,6 +86,13 @@ export const projects = [
     image: '../images/work/jetandben-portfolio.png',
     heroImage: '../images/work/jetandben-hero.png',
     link: '/work/jet-and-ben',
+    clientName: 'Durham Constabulary',
+    date: '2023',
+    testimonialName: 'Claire Kerr',
+    testimonialTitle: 'Durham Constabulary',
+    crest: '../images/work/jb-logo.svg',
+    testimonialQuote:
+      '"We commissioned our new website with Dove Design and they have been fantastic to work with on this major project. They were brilliant to work with during development of the project, were quick to respond to any queries we had and were always available to contact. We would recommend to anyone."',
   },
   {
     id: 4,
@@ -105,6 +119,13 @@ export const projects = [
     image: '../images/work/cpm-portfolio.png',
     heroImage: '../images/work/cpm-hero.png',
     link: '/work/community-peer-mentors',
+    clientName: 'Durham PCC',
+    date: '2022',
+    testimonialName: 'Jim Cunningham',
+    testimonialTitle: 'Durham Community Peer Mentors',
+    crest: '../images/work/cpm-logo.png',
+    testimonialQuote:
+      '""I cannot praise Dove Design enough. From the very start of this project they were very professional, providing great support, advice and guidance at all times. The process was quick and completed before the deadline and the final product was brilliant. Thank you so much for everything."',
   },
 ];
 
