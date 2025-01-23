@@ -2,12 +2,12 @@ import { c as create_ssr_component, b as add_attribute, e as escape, v as valida
 const Logo = "/images/nav/logo-only.svg";
 const Navbar_svelte_svelte_type_style_lang = "";
 const css$1 = {
-  code: "nav.svelte-ugtjs8.svelte-ugtjs8{width:100%;background-color:var(--white);padding:1rem 0;box-shadow:var(--box-shadow)}.navbar-flex.svelte-ugtjs8.svelte-ugtjs8{display:flex;justify-content:space-between;align-items:center;width:100%}.navbar-flex.svelte-ugtjs8 img.svelte-ugtjs8{width:63px}.nav-items.svelte-ugtjs8 ul.svelte-ugtjs8{display:flex;align-items:center;list-style-type:none}.nav-items.svelte-ugtjs8 ul a.svelte-ugtjs8{text-decoration:none}.nav-items.svelte-ugtjs8 ul li a.svelte-ugtjs8{color:var(--black);padding:0.5rem 1rem}@media(max-width: 760px){.navbar-flex.svelte-ugtjs8.svelte-ugtjs8{flex-direction:column;gap:1rem}.nav-items.svelte-ugtjs8 ul.svelte-ugtjs8{flex-wrap:wrap;justify-content:center}}",
+  code: "nav.svelte-ukewjv.svelte-ukewjv{width:100%;background-color:var(--white);padding:1rem 0;box-shadow:var(--box-shadow)}.navbar-flex.svelte-ukewjv.svelte-ukewjv{display:flex;justify-content:space-between;align-items:center;width:100%}.navbar-flex.svelte-ukewjv img.svelte-ukewjv{width:63px}.nav-items.svelte-ukewjv ul.svelte-ukewjv{display:flex;align-items:center;list-style-type:none}.nav-items.svelte-ukewjv ul a.svelte-ukewjv{text-decoration:none}.nav-items.svelte-ukewjv ul li a.svelte-ukewjv{color:var(--black);padding:0.5rem 1rem}@media(max-width: 760px){.navbar-flex.svelte-ukewjv.svelte-ukewjv{flex-direction:column;gap:1rem}.nav-items.svelte-ukewjv ul.svelte-ukewjv{flex-wrap:wrap;justify-content:center;text-align:center}}",
   map: null
 };
 const Navbar = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   $$result.css.add(css$1);
-  return `<nav class="svelte-ugtjs8" data-svelte-h="svelte-19dm8pq"><div class="container"><div class="navbar-flex svelte-ugtjs8"><a href="/"><img${add_attribute("src", Logo, 0)} alt="Dove Design Ltd Logo" class="svelte-ugtjs8"></a> <div class="nav-items svelte-ugtjs8"><ul class="svelte-ugtjs8"><li><a href="/work" class="svelte-ugtjs8"><li>Our Work</li></a></li> <li><a href="/faq" class="svelte-ugtjs8"><li>FAQs</li></a></li> <li><a href="/contact" class="svelte-ugtjs8"><li>Contact</li></a></li></ul></div></div></div> </nav>`;
+  return `<nav class="svelte-ukewjv" data-svelte-h="svelte-lh3mll"><div class="container"><div class="navbar-flex svelte-ukewjv"><a href="/"><img${add_attribute("src", Logo, 0)} alt="Dove Design Ltd Logo" class="svelte-ukewjv"></a> <div class="nav-items svelte-ukewjv"><ul class="svelte-ukewjv"><li><a href="/work" class="svelte-ukewjv">Our Work</a></li> <li><a href="/faq" class="svelte-ukewjv">FAQs</a></li> <li><a href="/contact" class="svelte-ukewjv">Contact</a></li></ul></div></div></div> </nav>`;
 });
 const Footer_svelte_svelte_type_style_lang = "";
 const css = {

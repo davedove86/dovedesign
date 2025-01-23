@@ -1,5 +1,5 @@
 <script>
-  import Logo from "/images/nav/logo-only.svg";
+  import Logo from '/images/nav/logo-only.svg';
 </script>
 
 <nav>
@@ -11,19 +11,13 @@
       <div class="nav-items">
         <ul>
           <li>
-            <a href="/work">
-              <li>Our Work</li>
-            </a>
+            <a href="/work"> Our Work </a>
           </li>
           <li>
-            <a href="/faq">
-              <li>FAQs</li>
-            </a>
+            <a href="/faq"> FAQs </a>
           </li>
           <li>
-            <a href="/contact">
-              <li>Contact</li>
-            </a>
+            <a href="/contact"> Contact </a>
           </li>
         </ul>
       </div>
@@ -75,6 +69,7 @@
     .nav-items ul {
       flex-wrap: wrap;
       justify-content: center;
+      text-align: center;
     }
   }
 </style>
