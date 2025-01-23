@@ -20,8 +20,11 @@
           </li>
         </ul>
       </div>
-      <a href="https://www.linkedin.com/company/dovedesignweb/" target="_blank"
-        ><img src="/images/linkedin-footer.svg" alt="" /></a
+      <a
+        href="https://www.linkedin.com/company/dovedesignweb/"
+        target="_blank"
+        aria-label="LinkedIn"
+        ><img src="/images/linkedin-footer.svg" alt="LinkedIn Logo" /></a
       >
     </div>
     <div class="center-align-grid">
