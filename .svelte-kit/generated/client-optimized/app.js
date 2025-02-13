@@ -10,7 +10,8 @@ export const nodes = [
 	() => import('./nodes/6'),
 	() => import('./nodes/7'),
 	() => import('./nodes/8'),
-	() => import('./nodes/9')
+	() => import('./nodes/9'),
+	() => import('./nodes/10')
 ];
 
 export const server_loads = [];
@@ -23,7 +24,8 @@ export const dictionary = {
 		"/work/community-peer-mentors": [6],
 		"/work/durham-pcc": [7],
 		"/work/jet-and-ben": [8],
-		"/work/victim-care-and-advice-service": [9]
+		"/work/northern-heritage-roofing": [9],
+		"/work/victim-care-and-advice-service": [10]
 	};
 
 export const hooks = {

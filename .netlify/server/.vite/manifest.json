@@ -186,6 +186,22 @@
     "isEntry": true,
     "src": "src/routes/work/jet-and-ben/+page.svelte"
   },
+  "src/routes/work/northern-heritage-roofing/+page.css": {
+    "file": "_app/immutable/assets/_page.77b4b7c6.css",
+    "src": "src/routes/work/victim-care-and-advice-service/+page.css"
+  },
+  "src/routes/work/northern-heritage-roofing/+page.svelte": {
+    "css": [
+      "_app/immutable/assets/_page.77b4b7c6.css"
+    ],
+    "file": "entries/pages/work/northern-heritage-roofing/_page.svelte.js",
+    "imports": [
+      "_ssr.js",
+      "_projectData.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/work/northern-heritage-roofing/+page.svelte"
+  },
   "src/routes/work/victim-care-and-advice-service/+page.css": {
     "file": "_app/immutable/assets/_page.77b4b7c6.css",
     "src": "src/routes/work/victim-care-and-advice-service/+page.css"

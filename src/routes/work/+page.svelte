@@ -1,6 +1,9 @@
 <script>
-  import projects from '../data/projectData';
+  import { projects } from '../data/projectData';
   import Testimonials from '../Testimonials.svelte';
+
+  // Sort projects by ID in descending order
+  const sortedProjects = projects.slice().sort((a, b) => b.id - a.id);
 </script>
 
 <svelte:head>
@@ -29,32 +32,33 @@
 <section>
   <div class="container">
     <h1>Our Work</h1>
-    <div class="work-wrapper" />
-    {#each projects as project}
-      <div class="grid-col-2">
-        <div>
-          <img
-            class="portfolio-image"
-            src={project.image}
-            alt="{project.name} website"
-          />
-        </div>
-        <div>
-          <h2>{project.name}</h2>
-          <div class="tags-wrapper">
-            {#each project.tags as tag}
-              <div class="tags">
-                <p>{tag}</p>
-              </div>
-            {/each}
+    <div class="work-wrapper">
+      {#each sortedProjects as project}
+        <div class="grid-col-2">
+          <div>
+            <img
+              class="portfolio-image"
+              src={project.image}
+              alt="{project.name} website"
+            />
           </div>
-          <p>{project.kicker}</p>
-          <a href={project.link} rel="noopener noreferrer">
-            <button>View Project</button>
-          </a>
+          <div>
+            <h2>{project.name}</h2>
+            <div class="tags-wrapper">
+              {#each project.tags as tag}
+                <div class="tags">
+                  <p>{tag}</p>
+                </div>
+              {/each}
+            </div>
+            <p>{project.kicker}</p>
+            <a href={project.link} rel="noopener noreferrer">
+              <button>View Project</button>
+            </a>
+          </div>
         </div>
-      </div>
-    {/each}
+      {/each}
+    </div>
   </div>
 </section>
 

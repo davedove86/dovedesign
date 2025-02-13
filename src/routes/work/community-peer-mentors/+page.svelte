@@ -40,7 +40,7 @@
       </div>
       <div class="client-item">
         <h3>Website</h3>
-        <a href="https://www.durham-pcc.gov.uk" target="_blank"
+        <a href="https://www.communitypeermentors.com/" target="_blank"
           >{projects[3].website}</a
         >
       </div>

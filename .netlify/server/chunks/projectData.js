@@ -110,6 +110,35 @@ const projects = [
     testimonialTitle: "Durham Community Peer Mentors",
     crest: "../images/work/cpm-logo.png",
     testimonialQuote: '""I cannot praise Dove Design enough. From the very start of this project they were very professional, providing great support, advice and guidance at all times. The process was quick and completed before the deadline and the final product was brilliant. Thank you so much for everything."'
+  },
+  {
+    id: 5,
+    name: "Northern Heritage Roofing",
+    kicker: "CMS driven website for a blilliant roofing company in County Durham",
+    tags: ["Webflow", "CMS", "Web Design"],
+    website: "https://www.northernheritageroofing.co.uk/",
+    overview: `The newly developed website for Northern Heritage Roofing Ltd presents a professional and engaging digital presence for one of County Durham’s leading roofing specialists. Designed with user experience in mind, the site showcases the company’s expertise in heritage roofing, repairs, and restorations while providing potential clients with clear, accessible information.
+
+    The website highlights the company’s craftsmanship and commitment to quality, featuring a structured layout that guides users seamlessly through services, project showcases, and contact options. Optimized for both desktop and mobile users, the site ensures that homeowners, contractors, and property managers can easily explore roofing solutions tailored to their needs.`,
+    whatWeDid: `For Northern Heritage Roofing Ltd, we developed a visually striking and functional website that reflects the company’s expertise in traditional and modern roofing solutions.
+
+    We focused on creating an intuitive user experience with a clean design, ensuring key services and past projects are easily accessible.
+
+    The site also integrates a CMS-driven portfolio to showcase completed work, allowing seamless updates and content management. Additionally, we optimized for SEO and mobile performance, ensuring high visibility and accessibility across devices.`,
+    outcome: `The new Northern Heritage Roofing Ltd website has strengthened the company’s online presence, making it easier for potential clients to explore services and get in touch.
+
+    With a modern design, intuitive navigation, and a CMS-driven portfolio, the website effectively showcases the company’s heritage craftsmanship and expertise.
+
+    Enhanced mobile responsiveness and SEO optimization ensure that the site reaches a wider audience, solidifying Northern Heritage Roofing Ltd’s reputation as a trusted roofing specialist in County Durham.`,
+    image: "../images/work/nhr-portfolio.png",
+    heroImage: "../images/work/nhr-hero.png",
+    link: "/work/northern-heritage-roofing",
+    clientName: "Norther Heritage Roofing ltd",
+    date: "2025",
+    testimonialName: "James Simpson",
+    testimonialTitle: "Founder",
+    crest: "../images/work/nhr-logo.png",
+    testimonialQuote: '""Dave set out a clear plan to bring my vision to life, and with his knowledge and idea’s, it’s turned out way better than I had anticipated. I couldn’t be happier with the design. He has been helpful and communicative throughout. Very much looking forward to continuing to work together on this project and quite possibly future projects! "'
   }
 ];
 export {
