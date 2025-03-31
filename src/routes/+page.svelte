@@ -123,7 +123,7 @@
     </div>
     <div class="grid-col-3">
       <div>
-        <img src="/images/tick.svg" alt="tick" />
+        <img class="tick" src="/images/tick.svg" alt="tick" />
         <h3>Empowered control</h3>
         <p>
           With Webflow, clients can make updates and edits to their websites
@@ -132,7 +132,7 @@
         </p>
       </div>
       <div>
-        <img src="/images/tick.svg" alt="tick" />
+        <img class="tick" src="/images/tick.svg" alt="tick" />
         <h3>Responsive websites</h3>
         <p>
           Webflow ensures your website looks stunning and functions seamlessly
@@ -141,7 +141,7 @@
         </p>
       </div>
       <div>
-        <img src="/images/tick.svg" alt="tick" />
+        <img class="tick" src="/images/tick.svg" alt="tick" />
         <h3>Lightning-fast hosting</h3>
         <p>
           Powered by Amazon Web Services with 100+ server sites globally,
@@ -149,7 +149,7 @@
         </p>
       </div>
       <div>
-        <img src="/images/tick.svg" alt="tick" />
+        <img class="tick" src="/images/tick.svg" alt="tick" />
         <h3>Search engine visibility</h3>
         <p>
           Webflow incorporates SEO best practices, ensuring your website ranks
@@ -158,7 +158,7 @@
         </p>
       </div>
       <div>
-        <img src="/images/tick.svg" alt="tick" />
+        <img class="tick" src="/images/tick.svg" alt="tick" />
         <h3>Top grade security</h3>
         <p>
           Comes with SSL and two-factor authentication out of the box. You can
@@ -166,7 +166,7 @@
         </p>
       </div>
       <div>
-        <img src="/images/tick.svg" alt="tick" />
+        <img class="tick" src="/images/tick.svg" alt="tick" />
         <h3>First class support</h3>
         <p>
           Webflow's responsive support team is ready to assist with any
@@ -282,6 +282,10 @@
 
   .is-secondary {
     margin-top: 2rem;
+  }
+
+  .tick {
+    margin-bottom: 0.5rem;
   }
 
   @media screen and (max-width: 961px) {

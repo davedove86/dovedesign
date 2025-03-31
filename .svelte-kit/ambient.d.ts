@@ -48,7 +48,6 @@ declare module '$env/static/private' {
 	export const LS_COLORS: string;
 	export const COMMAND_MODE: string;
 	export const npm_config_globalconfig: string;
-	export const CW_NEW_SESSION: string;
 	export const SSH_AUTH_SOCK: string;
 	export const Q_SET_PARENT_CHECK: string;
 	export const __CF_USER_TEXT_ENCODING: string;
@@ -150,7 +149,6 @@ declare module '$env/dynamic/private' {
 		LS_COLORS: string;
 		COMMAND_MODE: string;
 		npm_config_globalconfig: string;
-		CW_NEW_SESSION: string;
 		SSH_AUTH_SOCK: string;
 		Q_SET_PARENT_CHECK: string;
 		__CF_USER_TEXT_ENCODING: string;
