@@ -1,1 +1,1 @@
-export { default as component } from "../../../../src/routes/work/durham-pcc/+page.svelte";
+export { default as component } from "../../../../src/routes/work/community-peer-mentors/+page.svelte";
