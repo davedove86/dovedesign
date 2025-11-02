@@ -26,7 +26,6 @@
  * ```
  */
 declare module '$env/static/private' {
-	export const MANPATH: string;
 	export const TERM_PROGRAM: string;
 	export const NODE: string;
 	export const INIT_CWD: string;
@@ -94,6 +93,7 @@ declare module '$env/static/private' {
 	export const GIT_ASKPASS: string;
 	export const Q_TERM: string;
 	export const QTERM_SESSION_ID: string;
+	export const OSLogRateLimit: string;
 	export const npm_node_execpath: string;
 	export const npm_config_prefix: string;
 	export const COLORTERM: string;
@@ -127,7 +127,6 @@ declare module '$env/static/public' {
  */
 declare module '$env/dynamic/private' {
 	export const env: {
-		MANPATH: string;
 		TERM_PROGRAM: string;
 		NODE: string;
 		INIT_CWD: string;
@@ -195,6 +194,7 @@ declare module '$env/dynamic/private' {
 		GIT_ASKPASS: string;
 		Q_TERM: string;
 		QTERM_SESSION_ID: string;
+		OSLogRateLimit: string;
 		npm_node_execpath: string;
 		npm_config_prefix: string;
 		COLORTERM: string;

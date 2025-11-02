@@ -117,6 +117,13 @@
 
       gtag('config', 'G-SWZC21Y0ED');
     </script>
+    <script>
+      window.netlifyIdentity && window.netlifyIdentity.off("init");
+      if (window.netlifyAnalytics && window.netlifyAnalytics.gl) {
+        window.netlifyAnalytics.gl = false;
+      }
+    </script>
+
   </head>
 
   <body data-sveltekit-preload-data="hover">
